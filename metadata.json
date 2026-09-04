@@ -1,0 +1,6 @@
+{
+  "name": "ASTOMITY",
+  "description": "Everything You Need, One Marketplace. Premium Indian e-commerce platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

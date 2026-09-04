@@ -1,0 +1,451 @@
+Product ID	Product Name	Category	Selling Price (₹)	MRP (₹)	Discount (%)	Rating	Reviews	Stock	SKU	Short Description	Featured	Deal Product
+1	Samsung Galaxy M14 5G	Mobiles	13210	15539	15	4	9162	145	AST-MOB-0001	Samsung Galaxy M14 5G available on ASTOMITY.	Yes	No
+2	iQOO Z9 5G	Mobiles	13820	17279	20	4.6	22324	399	AST-MOB-0002	iQOO Z9 5G available on ASTOMITY.	Yes	No
+3	OnePlus Nord CE	Mobiles	23080	27159	15	4.5	1191	35	AST-MOB-0003	OnePlus Nord CE available on ASTOMITY.	Yes	No
+4	Redmi Note Series	Mobiles	8210	10949	25	4.2	19876	33	AST-MOB-0004	Redmi Note Series available on ASTOMITY.	Yes	No
+5	Realme Narzo Series	Mobiles	11050	14739	25	4.6	23131	299	AST-MOB-0005	Realme Narzo Series available on ASTOMITY.	Yes	No
+6	Motorola G Series	Mobiles	13940	18589	25	4.4	9265	434	AST-MOB-0006	Motorola G Series available on ASTOMITY.	Yes	No
+7	POCO X Series	Mobiles	8900	11129	20	4.6	11299	162	AST-MOB-0007	POCO X Series available on ASTOMITY.	Yes	No
+8	Vivo Y Series	Mobiles	10630	14179	25	4.8	11179	72	AST-MOB-0008	Vivo Y Series available on ASTOMITY.	Yes	No
+9	OPPO A Series	Mobiles	8330	13889	40	4.1	11420	329	AST-MOB-0009	OPPO A Series available on ASTOMITY.	Yes	Yes
+10	Nothing Phone Series	Mobiles	22870	25409	10	4.6	17721	83	AST-MOB-0010	Nothing Phone Series available on ASTOMITY.	Yes	No
+11	CMF Phone Series	Mobiles	17640	20749	15	4.4	20749	336	AST-MOB-0011	CMF Phone Series available on ASTOMITY.	Yes	No
+12	Google Pixel Series	Mobiles	44710	59619	25	4.6	1651	358	AST-MOB-0012	Google Pixel Series available on ASTOMITY.	Yes	No
+13	Apple iPhone Series	Mobiles	54130	77329	30	4.8	7778	463	AST-MOB-0013	Apple iPhone Series available on ASTOMITY.	Yes	Yes
+14	Lava Blaze Series	Mobiles	4820	8029	40	4.2	20980	447	AST-MOB-0014	Lava Blaze Series available on ASTOMITY.	Yes	Yes
+15	Nokia Smartphone Series	Mobiles	8580	10729	20	4.3	7015	363	AST-MOB-0015	Nokia Smartphone Series available on ASTOMITY.	Yes	No
+16	Samsung Galaxy M14 5G — Variant 2	Mobiles	9970	11729	15	4.5	5757	293	AST-MOB-0016	Samsung Galaxy M14 5G — Variant 2 available on ASTOMITY.	Yes	No
+17	iQOO Z9 5G — Variant 2	Mobiles	16840	22459	25	4.1	12583	158	AST-MOB-0017	iQOO Z9 5G — Variant 2 available on ASTOMITY.	Yes	No
+18	OnePlus Nord CE — Variant 2	Mobiles	20550	27399	25	4.5	1982	137	AST-MOB-0018	OnePlus Nord CE — Variant 2 available on ASTOMITY.	Yes	No
+19	Redmi Note Series — Variant 2	Mobiles	16570	18409	10	4.6	13295	157	AST-MOB-0019	Redmi Note Series — Variant 2 available on ASTOMITY.	Yes	No
+20	Realme Narzo Series — Variant 2	Mobiles	7250	9669	25	4.7	18735	468	AST-MOB-0020	Realme Narzo Series — Variant 2 available on ASTOMITY.	Yes	No
+21	Motorola G Series — Variant 2	Mobiles	12330	16439	25	4.5	13114	472	AST-MOB-0021	Motorola G Series — Variant 2 available on ASTOMITY.	Yes	No
+22	POCO X Series — Variant 2	Mobiles	13290	24159	45	4.1	4725	146	AST-MOB-0022	POCO X Series — Variant 2 available on ASTOMITY.	Yes	Yes
+23	Vivo Y Series — Variant 2	Mobiles	11240	22489	50	4.2	19305	239	AST-MOB-0023	Vivo Y Series — Variant 2 available on ASTOMITY.	Yes	Yes
+24	OPPO A Series — Variant 2	Mobiles	14370	23949	40	4.3	4682	280	AST-MOB-0024	OPPO A Series — Variant 2 available on ASTOMITY.	Yes	Yes
+25	Nothing Phone Series — Variant 2	Mobiles	25580	30099	15	4.6	3742	98	AST-MOB-0025	Nothing Phone Series — Variant 2 available on ASTOMITY.	Yes	No
+26	CMF Phone Series — Variant 2	Mobiles	9760	16269	40	4.5	12758	215	AST-MOB-0026	CMF Phone Series — Variant 2 available on ASTOMITY.	Yes	Yes
+27	Google Pixel Series — Variant 2	Mobiles	43340	78809	45	4.4	18278	460	AST-MOB-0027	Google Pixel Series — Variant 2 available on ASTOMITY.	Yes	Yes
+28	Apple iPhone Series — Variant 2	Mobiles	35600	41879	15	4.5	17745	404	AST-MOB-0028	Apple iPhone Series — Variant 2 available on ASTOMITY.	Yes	No
+29	Lava Blaze Series — Variant 2	Mobiles	6320	9729	35	4.1	14396	100	AST-MOB-0029	Lava Blaze Series — Variant 2 available on ASTOMITY.	Yes	Yes
+30	Nokia Smartphone Series — Variant 2	Mobiles	10480	11639	10	4.8	23732	154	AST-MOB-0030	Nokia Smartphone Series — Variant 2 available on ASTOMITY.	Yes	No
+31	Samsung Galaxy M14 5G — Variant 3	Mobiles	11300	14119	20	4.4	3636	465	AST-MOB-0031	Samsung Galaxy M14 5G — Variant 3 available on ASTOMITY.	Yes	No
+32	iQOO Z9 5G — Variant 3	Mobiles	14980	21399	30	4.7	16785	331	AST-MOB-0032	iQOO Z9 5G — Variant 3 available on ASTOMITY.	Yes	Yes
+33	OnePlus Nord CE — Variant 3	Mobiles	16060	20069	20	4.3	5443	296	AST-MOB-0033	OnePlus Nord CE — Variant 3 available on ASTOMITY.	Yes	No
+34	Redmi Note Series — Variant 3	Mobiles	9880	19759	50	4.7	19776	185	AST-MOB-0034	Redmi Note Series — Variant 3 available on ASTOMITY.	Yes	Yes
+35	Realme Narzo Series — Variant 3	Mobiles	12600	13999	10	4.1	12044	469	AST-MOB-0035	Realme Narzo Series — Variant 3 available on ASTOMITY.	Yes	No
+36	Motorola G Series — Variant 3	Mobiles	12220	16289	25	4	18741	60	AST-MOB-0036	Motorola G Series — Variant 3 available on ASTOMITY.	Yes	No
+37	POCO X Series — Variant 3	Mobiles	7010	12749	45	4.7	17605	412	AST-MOB-0037	POCO X Series — Variant 3 available on ASTOMITY.	Yes	Yes
+38	Vivo Y Series — Variant 3	Mobiles	10860	13569	20	4.5	18165	104	AST-MOB-0038	Vivo Y Series — Variant 3 available on ASTOMITY.	Yes	No
+39	boAt Wave Smart Watch	Electronics	1170	2349	50	4.7	14015	128	AST-ELE-0039	boAt Wave Smart Watch available on ASTOMITY.	Yes	Yes
+40	Realme Buds T300 Earbuds	Electronics	1620	2319	30	4.3	22159	352	AST-ELE-0040	Realme Buds T300 Earbuds available on ASTOMITY.	Yes	Yes
+41	JBL Bluetooth Speaker	Electronics	3200	5819	45	4.7	14944	81	AST-ELE-0041	JBL Bluetooth Speaker available on ASTOMITY.	Yes	Yes
+42	Sony Wireless Headphones	Electronics	6050	8069	25	4.1	839	321	AST-ELE-0042	Sony Wireless Headphones available on ASTOMITY.	Yes	No
+43	HP Intel Core i3 Laptop	Electronics	33250	44330	25	4.5	385	56	AST-ELE-0043	HP Intel Core i3 Laptop available on ASTOMITY.	Yes	No
+44	Lenovo IdeaPad Laptop	Electronics	53080	58980	10	4.2	1179	460	AST-ELE-0044	Lenovo IdeaPad Laptop available on ASTOMITY.	Yes	No
+45	ASUS Vivobook Laptop	Electronics	52740	62050	15	4.4	9275	362	AST-ELE-0045	ASUS Vivobook Laptop available on ASTOMITY.	Yes	No
+46	Acer Aspire Laptop	Electronics	38900	51870	25	4.4	23852	498	AST-ELE-0046	Acer Aspire Laptop available on ASTOMITY.	Yes	No
+47	Dell Inspiron Laptop	Electronics	47720	86760	45	4.2	15648	433	AST-ELE-0047	Dell Inspiron Laptop available on ASTOMITY.	Yes	Yes
+48	Logitech Wireless Mouse	Electronics	1150	1539	25	4.1	21743	240	AST-ELE-0048	Logitech Wireless Mouse available on ASTOMITY.	Yes	No
+49	Mechanical Gaming Keyboard	Electronics	3070	5119	40	4.3	24040	47	AST-ELE-0049	Mechanical Gaming Keyboard available on ASTOMITY.	Yes	Yes
+50	1080p Webcam	Electronics	1350	1499	10	4.3	11268	429	AST-ELE-0050	1080p Webcam available on ASTOMITY.	Yes	No
+51	Portable SSD	Electronics	3080	4109	25	4.2	17723	249	AST-ELE-0051	Portable SSD available on ASTOMITY.	No	No
+52	Wi-Fi Router	Electronics	1020	1709	40	4.1	15309	147	AST-ELE-0052	Wi-Fi Router available on ASTOMITY.	No	Yes
+53	Power Bank	Electronics	650	1179	45	4.6	18183	70	AST-ELE-0053	Power Bank available on ASTOMITY.	No	Yes
+54	boAt Wave Smart Watch — Variant 2	Electronics	620	1249	50	4.7	3206	494	AST-ELE-0054	boAt Wave Smart Watch — Variant 2 available on ASTOMITY.	No	Yes
+55	Realme Buds T300 Earbuds — Variant 2	Electronics	2010	2509	20	4.3	15923	129	AST-ELE-0055	Realme Buds T300 Earbuds — Variant 2 available on ASTOMITY.	No	No
+56	JBL Bluetooth Speaker — Variant 2	Electronics	5490	6099	10	4.1	220	219	AST-ELE-0056	JBL Bluetooth Speaker — Variant 2 available on ASTOMITY.	No	No
+57	Sony Wireless Headphones — Variant 2	Electronics	4640	8429	45	4.2	22975	394	AST-ELE-0057	Sony Wireless Headphones — Variant 2 available on ASTOMITY.	No	Yes
+58	HP Intel Core i3 Laptop — Variant 2	Electronics	24520	49030	50	4.5	16097	99	AST-ELE-0058	HP Intel Core i3 Laptop — Variant 2 available on ASTOMITY.	No	Yes
+59	Lenovo IdeaPad Laptop — Variant 2	Electronics	26430	37760	30	4.2	2066	316	AST-ELE-0059	Lenovo IdeaPad Laptop — Variant 2 available on ASTOMITY.	No	Yes
+60	ASUS Vivobook Laptop — Variant 2	Electronics	71460	79400	10	4.6	2023	45	AST-ELE-0060	ASUS Vivobook Laptop — Variant 2 available on ASTOMITY.	No	No
+61	Acer Aspire Laptop — Variant 2	Electronics	30750	55910	45	4.4	17553	100	AST-ELE-0061	Acer Aspire Laptop — Variant 2 available on ASTOMITY.	No	Yes
+62	Dell Inspiron Laptop — Variant 2	Electronics	22320	44640	50	4.1	6239	55	AST-ELE-0062	Dell Inspiron Laptop — Variant 2 available on ASTOMITY.	No	Yes
+63	Logitech Wireless Mouse — Variant 2	Electronics	500	669	25	4.3	18817	146	AST-ELE-0063	Logitech Wireless Mouse — Variant 2 available on ASTOMITY.	No	No
+64	Mechanical Gaming Keyboard — Variant 2	Electronics	1610	1899	15	4.3	19275	309	AST-ELE-0064	Mechanical Gaming Keyboard — Variant 2 available on ASTOMITY.	No	No
+65	1080p Webcam — Variant 2	Electronics	2380	3669	35	4.7	6843	362	AST-ELE-0065	1080p Webcam — Variant 2 available on ASTOMITY.	No	Yes
+66	Portable SSD — Variant 2	Electronics	4660	6209	25	4.2	4438	363	AST-ELE-0066	Portable SSD — Variant 2 available on ASTOMITY.	No	No
+67	Wi-Fi Router — Variant 2	Electronics	3010	4299	30	4.4	24787	499	AST-ELE-0067	Wi-Fi Router — Variant 2 available on ASTOMITY.	No	Yes
+68	Power Bank — Variant 2	Electronics	1050	1169	10	4.4	18598	71	AST-ELE-0068	Power Bank — Variant 2 available on ASTOMITY.	No	No
+69	boAt Wave Smart Watch — Variant 3	Electronics	680	1369	50	4.2	8840	87	AST-ELE-0069	boAt Wave Smart Watch — Variant 3 available on ASTOMITY.	No	Yes
+70	Realme Buds T300 Earbuds — Variant 3	Electronics	2620	3079	15	4.7	12258	165	AST-ELE-0070	Realme Buds T300 Earbuds — Variant 3 available on ASTOMITY.	No	No
+71	JBL Bluetooth Speaker — Variant 3	Electronics	1980	3609	45	4.7	23203	174	AST-ELE-0071	JBL Bluetooth Speaker — Variant 3 available on ASTOMITY.	No	Yes
+72	Sony Wireless Headphones — Variant 3	Electronics	7760	15519	50	4	18323	173	AST-ELE-0072	Sony Wireless Headphones — Variant 3 available on ASTOMITY.	No	Yes
+73	HP Intel Core i3 Laptop — Variant 3	Electronics	39580	46570	15	4.8	4550	155	AST-ELE-0073	HP Intel Core i3 Laptop — Variant 3 available on ASTOMITY.	No	No
+74	Lenovo IdeaPad Laptop — Variant 3	Electronics	29500	34710	15	4.6	5243	159	AST-ELE-0074	Lenovo IdeaPad Laptop — Variant 3 available on ASTOMITY.	No	No
+75	ASUS Vivobook Laptop — Variant 3	Electronics	43550	58070	25	4.6	6821	371	AST-ELE-0075	ASUS Vivobook Laptop — Variant 3 available on ASTOMITY.	No	No
+76	Acer Aspire Laptop — Variant 3	Electronics	40570	57960	30	4.4	8378	483	AST-ELE-0076	Acer Aspire Laptop — Variant 3 available on ASTOMITY.	No	Yes
+77	Puma Men's Sneakers	Fashion	1720	2019	15	4.5	9216	42	AST-FAS-0077	Puma Men's Sneakers available on ASTOMITY.	No	No
+78	Safari Laptop Backpack	Fashion	520	799	35	4.6	21026	154	AST-FAS-0078	Safari Laptop Backpack available on ASTOMITY.	No	Yes
+79	Casual Denim Jacket	Fashion	1110	2019	45	4.4	14164	307	AST-FAS-0079	Casual Denim Jacket available on ASTOMITY.	No	Yes
+80	Oversized T-Shirt	Fashion	350	409	15	4.1	22793	482	AST-FAS-0080	Oversized T-Shirt available on ASTOMITY.	No	No
+81	Slim Fit Jeans	Fashion	640	1279	50	4	12248	318	AST-FAS-0081	Slim Fit Jeans available on ASTOMITY.	No	Yes
+82	Running Shoes	Fashion	3060	3819	20	4.3	1520	177	AST-FAS-0082	Running Shoes available on ASTOMITY.	No	No
+83	Canvas Backpack	Fashion	1470	1629	10	4.7	7033	369	AST-FAS-0083	Canvas Backpack available on ASTOMITY.	No	No
+84	Casual Hoodie	Fashion	1210	1429	15	4.3	18496	472	AST-FAS-0084	Casual Hoodie available on ASTOMITY.	No	No
+85	Sports Track Pants	Fashion	1310	1639	20	4.7	7907	462	AST-FAS-0085	Sports Track Pants available on ASTOMITY.	No	No
+86	Cotton Polo T-Shirt	Fashion	730	909	20	4.7	962	111	AST-FAS-0086	Cotton Polo T-Shirt available on ASTOMITY.	No	No
+87	Formal Blazer	Fashion	3750	5769	35	4.6	13641	430	AST-FAS-0087	Formal Blazer available on ASTOMITY.	No	Yes
+88	Leather Wallet	Fashion	720	1029	30	4.1	23129	75	AST-FAS-0088	Leather Wallet available on ASTOMITY.	No	Yes
+89	Sunglasses	Fashion	2020	2249	10	4.7	7438	122	AST-FAS-0089	Sunglasses available on ASTOMITY.	No	No
+90	Analog Watch	Fashion	2740	4979	45	4.3	7607	134	AST-FAS-0090	Analog Watch available on ASTOMITY.	No	Yes
+91	Travel Duffle Bag	Fashion	720	959	25	4.3	9279	462	AST-FAS-0091	Travel Duffle Bag available on ASTOMITY.	No	No
+92	Puma Men's Sneakers — Variant 2	Fashion	1550	2209	30	4.3	16842	224	AST-FAS-0092	Puma Men's Sneakers — Variant 2 available on ASTOMITY.	No	Yes
+93	Safari Laptop Backpack — Variant 2	Fashion	1260	2529	50	4.3	1054	79	AST-FAS-0093	Safari Laptop Backpack — Variant 2 available on ASTOMITY.	No	Yes
+94	Casual Denim Jacket — Variant 2	Fashion	2020	2529	20	4.5	8848	39	AST-FAS-0094	Casual Denim Jacket — Variant 2 available on ASTOMITY.	No	No
+95	Oversized T-Shirt — Variant 2	Fashion	320	529	40	4.3	10428	243	AST-FAS-0095	Oversized T-Shirt — Variant 2 available on ASTOMITY.	No	Yes
+96	Slim Fit Jeans — Variant 2	Fashion	1220	2449	50	4.1	19043	117	AST-FAS-0096	Slim Fit Jeans — Variant 2 available on ASTOMITY.	No	Yes
+97	Running Shoes — Variant 2	Fashion	2070	2299	10	4.6	205	286	AST-FAS-0097	Running Shoes — Variant 2 available on ASTOMITY.	No	No
+98	Canvas Backpack — Variant 2	Fashion	1550	2069	25	4.3	2442	360	AST-FAS-0098	Canvas Backpack — Variant 2 available on ASTOMITY.	No	No
+99	Casual Hoodie — Variant 2	Fashion	1060	1639	35	4.5	4233	388	AST-FAS-0099	Casual Hoodie — Variant 2 available on ASTOMITY.	No	Yes
+100	Sports Track Pants — Variant 2	Fashion	680	1359	50	4.2	13532	187	AST-FAS-0100	Sports Track Pants — Variant 2 available on ASTOMITY.	No	Yes
+101	Cotton Polo T-Shirt — Variant 2	Fashion	1070	1529	30	4.4	6436	235	AST-FAS-0101	Cotton Polo T-Shirt — Variant 2 available on ASTOMITY.	No	Yes
+102	Formal Blazer — Variant 2	Fashion	3240	5399	40	4.5	5852	335	AST-FAS-0102	Formal Blazer — Variant 2 available on ASTOMITY.	No	Yes
+103	Leather Wallet — Variant 2	Fashion	1290	1849	30	4.3	163	175	AST-FAS-0103	Leather Wallet — Variant 2 available on ASTOMITY.	No	Yes
+104	Sunglasses — Variant 2	Fashion	1320	1759	25	4.3	19154	330	AST-FAS-0104	Sunglasses — Variant 2 available on ASTOMITY.	No	No
+105	Analog Watch — Variant 2	Fashion	2700	4149	35	4.4	14638	365	AST-FAS-0105	Analog Watch — Variant 2 available on ASTOMITY.	No	Yes
+106	Travel Duffle Bag — Variant 2	Fashion	720	1439	50	4.4	24265	106	AST-FAS-0106	Travel Duffle Bag — Variant 2 available on ASTOMITY.	No	Yes
+107	Puma Men's Sneakers — Variant 3	Fashion	1650	2359	30	4.4	20890	337	AST-FAS-0107	Puma Men's Sneakers — Variant 3 available on ASTOMITY.	No	Yes
+108	Safari Laptop Backpack — Variant 3	Fashion	1400	1649	15	4.7	24763	140	AST-FAS-0108	Safari Laptop Backpack — Variant 3 available on ASTOMITY.	No	No
+109	Casual Denim Jacket — Variant 3	Fashion	2080	2779	25	4.6	4978	32	AST-FAS-0109	Casual Denim Jacket — Variant 3 available on ASTOMITY.	No	No
+110	Oversized T-Shirt — Variant 3	Fashion	340	449	25	4.8	20180	455	AST-FAS-0110	Oversized T-Shirt — Variant 3 available on ASTOMITY.	No	No
+111	Slim Fit Jeans — Variant 3	Fashion	590	1079	45	4.3	20786	314	AST-FAS-0111	Slim Fit Jeans — Variant 3 available on ASTOMITY.	No	Yes
+112	Running Shoes — Variant 3	Fashion	1190	1989	40	4.4	8144	95	AST-FAS-0112	Running Shoes — Variant 3 available on ASTOMITY.	No	Yes
+113	Canvas Backpack — Variant 3	Fashion	2130	2369	10	4.7	3642	418	AST-FAS-0113	Canvas Backpack — Variant 3 available on ASTOMITY.	No	No
+114	Casual Hoodie — Variant 3	Fashion	1410	1879	25	4.1	22953	285	AST-FAS-0114	Casual Hoodie — Variant 3 available on ASTOMITY.	No	No
+115	Dennis Lingo Men Shirt	Men	1600	1779	10	4.4	4126	253	AST-MEN-0115	Dennis Lingo Men Shirt available on ASTOMITY.	No	No
+116	Men's Cotton Kurta	Men	570	1039	45	4.5	18464	324	AST-MEN-0116	Men's Cotton Kurta available on ASTOMITY.	No	Yes
+117	Men's Formal Trousers	Men	880	1609	45	4.5	23719	476	AST-MEN-0117	Men's Formal Trousers available on ASTOMITY.	No	Yes
+118	Men's Casual Shirt	Men	1070	1789	40	4.7	18102	248	AST-MEN-0118	Men's Casual Shirt available on ASTOMITY.	No	Yes
+119	Men's Chinos	Men	600	1099	45	4.4	24784	146	AST-MEN-0119	Men's Chinos available on ASTOMITY.	No	Yes
+120	Men's Ethnic Jacket	Men	1200	2409	50	4.4	7989	160	AST-MEN-0120	Men's Ethnic Jacket available on ASTOMITY.	No	Yes
+121	Men's Running Shorts	Men	820	959	15	4.6	7833	159	AST-MEN-0121	Men's Running Shorts available on ASTOMITY.	No	No
+122	Men's Sweatshirt	Men	1010	1549	35	4.7	2790	90	AST-MEN-0122	Men's Sweatshirt available on ASTOMITY.	No	Yes
+123	Men's Innerwear Pack	Men	440	589	25	4.3	5157	381	AST-MEN-0123	Men's Innerwear Pack available on ASTOMITY.	No	No
+124	Men's Slippers	Men	480	569	15	4.3	10992	297	AST-MEN-0124	Men's Slippers available on ASTOMITY.	No	No
+125	Men's Formal Shoes	Men	2030	3379	40	4	13917	219	AST-MEN-0125	Men's Formal Shoes available on ASTOMITY.	No	Yes
+126	Men's Grooming Kit	Men	1880	2089	10	4.7	19014	214	AST-MEN-0126	Men's Grooming Kit available on ASTOMITY.	No	No
+127	Men's Belt	Men	820	909	10	4.8	9934	405	AST-MEN-0127	Men's Belt available on ASTOMITY.	No	No
+128	Men's Backpack	Men	1010	1689	40	4.4	24222	299	AST-MEN-0128	Men's Backpack available on ASTOMITY.	No	Yes
+129	Men's Sports Cap	Men	260	479	45	4.2	14431	268	AST-MEN-0129	Men's Sports Cap available on ASTOMITY.	No	Yes
+130	Dennis Lingo Men Shirt — Variant 2	Men	400	669	40	4.3	22404	428	AST-MEN-0130	Dennis Lingo Men Shirt — Variant 2 available on ASTOMITY.	No	Yes
+131	Men's Cotton Kurta — Variant 2	Men	1380	1729	20	4.7	4332	338	AST-MEN-0131	Men's Cotton Kurta — Variant 2 available on ASTOMITY.	No	No
+132	Men's Formal Trousers — Variant 2	Men	1940	2159	10	4.7	19545	308	AST-MEN-0132	Men's Formal Trousers — Variant 2 available on ASTOMITY.	No	No
+133	Men's Casual Shirt — Variant 2	Men	480	559	15	4.5	4596	463	AST-MEN-0133	Men's Casual Shirt — Variant 2 available on ASTOMITY.	No	No
+134	Men's Chinos — Variant 2	Men	1500	1879	20	4	12572	187	AST-MEN-0134	Men's Chinos — Variant 2 available on ASTOMITY.	No	No
+135	Men's Ethnic Jacket — Variant 2	Men	1140	2079	45	4.3	12573	162	AST-MEN-0135	Men's Ethnic Jacket — Variant 2 available on ASTOMITY.	No	Yes
+136	Men's Running Shorts — Variant 2	Men	650	929	30	4.7	15561	29	AST-MEN-0136	Men's Running Shorts — Variant 2 available on ASTOMITY.	No	Yes
+137	Men's Sweatshirt — Variant 2	Men	1870	2079	10	4.8	11617	134	AST-MEN-0137	Men's Sweatshirt — Variant 2 available on ASTOMITY.	No	No
+138	Men's Innerwear Pack — Variant 2	Men	1040	1229	15	4.6	21506	40	AST-MEN-0138	Men's Innerwear Pack — Variant 2 available on ASTOMITY.	No	No
+139	Men's Slippers — Variant 2	Men	1130	1259	10	4.8	6682	449	AST-MEN-0139	Men's Slippers — Variant 2 available on ASTOMITY.	No	No
+140	Men's Formal Shoes — Variant 2	Men	880	1099	20	4.2	15667	362	AST-MEN-0140	Men's Formal Shoes — Variant 2 available on ASTOMITY.	No	No
+141	Men's Grooming Kit — Variant 2	Men	670	889	25	4.4	8546	412	AST-MEN-0141	Men's Grooming Kit — Variant 2 available on ASTOMITY.	No	No
+142	Men's Belt — Variant 2	Men	620	769	20	4.5	24658	387	AST-MEN-0142	Men's Belt — Variant 2 available on ASTOMITY.	No	No
+143	Men's Backpack — Variant 2	Men	790	989	20	4.8	3692	316	AST-MEN-0143	Men's Backpack — Variant 2 available on ASTOMITY.	No	No
+144	Men's Sports Cap — Variant 2	Men	160	229	30	4.5	12448	223	AST-MEN-0144	Men's Sports Cap — Variant 2 available on ASTOMITY.	No	Yes
+145	Dennis Lingo Men Shirt — Variant 3	Men	930	1099	15	4.5	20703	144	AST-MEN-0145	Dennis Lingo Men Shirt — Variant 3 available on ASTOMITY.	No	No
+146	Men's Cotton Kurta — Variant 3	Men	670	959	30	4.7	19824	432	AST-MEN-0146	Men's Cotton Kurta — Variant 3 available on ASTOMITY.	No	Yes
+147	Men's Formal Trousers — Variant 3	Men	990	1099	10	4.3	14187	358	AST-MEN-0147	Men's Formal Trousers — Variant 3 available on ASTOMITY.	No	No
+148	Men's Casual Shirt — Variant 3	Men	1220	1439	15	4.4	11331	26	AST-MEN-0148	Men's Casual Shirt — Variant 3 available on ASTOMITY.	No	No
+149	Men's Chinos — Variant 3	Men	970	1769	45	4.1	12018	345	AST-MEN-0149	Men's Chinos — Variant 3 available on ASTOMITY.	No	Yes
+150	Men's Ethnic Jacket — Variant 3	Men	2680	3349	20	4.3	24195	287	AST-MEN-0150	Men's Ethnic Jacket — Variant 3 available on ASTOMITY.	No	No
+151	Men's Running Shorts — Variant 3	Men	860	1229	30	4.5	17784	416	AST-MEN-0151	Men's Running Shorts — Variant 3 available on ASTOMITY.	No	Yes
+152	Men's Sweatshirt — Variant 3	Men	1060	1929	45	4.3	24104	323	AST-MEN-0152	Men's Sweatshirt — Variant 3 available on ASTOMITY.	No	Yes
+153	Women's Kurti	Women	770	1179	35	4.7	2989	162	AST-WOM-0153	Women's Kurti available on ASTOMITY.	No	Yes
+154	Women's Saree	Women	2320	3099	25	4.6	18822	332	AST-WOM-0154	Women's Saree available on ASTOMITY.	No	No
+155	Women's Handbag	Women	1650	2539	35	4	10800	113	AST-WOM-0155	Women's Handbag available on ASTOMITY.	No	Yes
+156	Women's Dress	Women	1530	2039	25	4.3	8615	194	AST-WOM-0156	Women's Dress available on ASTOMITY.	No	No
+157	Women's Jeans	Women	1060	1509	30	4.4	17078	117	AST-WOM-0157	Women's Jeans available on ASTOMITY.	No	Yes
+158	Women's Top	Women	370	499	25	4.6	16159	304	AST-WOM-0158	Women's Top available on ASTOMITY.	No	No
+159	Women's Ethnic Set	Women	1170	2129	45	4.5	16233	249	AST-WOM-0159	Women's Ethnic Set available on ASTOMITY.	No	Yes
+160	Women's Sandals	Women	460	539	15	4.2	13401	374	AST-WOM-0160	Women's Sandals available on ASTOMITY.	No	No
+161	Women's Sneakers	Women	1570	2239	30	4.5	12242	262	AST-WOM-0161	Women's Sneakers available on ASTOMITY.	No	Yes
+162	Women's Dupatta	Women	500	999	50	4.3	24592	301	AST-WOM-0162	Women's Dupatta available on ASTOMITY.	No	Yes
+163	Women's Night Suit	Women	870	1339	35	4.6	9027	176	AST-WOM-0163	Women's Night Suit available on ASTOMITY.	No	Yes
+164	Women's Scarf	Women	390	519	25	4.1	6460	181	AST-WOM-0164	Women's Scarf available on ASTOMITY.	No	No
+165	Women's Wallet	Women	350	699	50	4.8	22765	114	AST-WOM-0165	Women's Wallet available on ASTOMITY.	No	Yes
+166	Women's Watch	Women	1330	1779	25	4.6	9210	390	AST-WOM-0166	Women's Watch available on ASTOMITY.	No	No
+167	Women's Tote Bag	Women	1050	2099	50	4.5	3444	446	AST-WOM-0167	Women's Tote Bag available on ASTOMITY.	No	Yes
+168	Women's Kurti — Variant 2	Women	690	989	30	4.2	6029	174	AST-WOM-0168	Women's Kurti — Variant 2 available on ASTOMITY.	No	Yes
+169	Women's Saree — Variant 2	Women	430	869	50	4.1	1641	47	AST-WOM-0169	Women's Saree — Variant 2 available on ASTOMITY.	No	Yes
+170	Women's Handbag — Variant 2	Women	2400	3429	30	4.6	4287	346	AST-WOM-0170	Women's Handbag — Variant 2 available on ASTOMITY.	No	Yes
+171	Women's Dress — Variant 2	Women	1500	2719	45	4.1	551	313	AST-WOM-0171	Women's Dress — Variant 2 available on ASTOMITY.	No	Yes
+172	Women's Jeans — Variant 2	Women	840	1519	45	4.4	11314	114	AST-WOM-0172	Women's Jeans — Variant 2 available on ASTOMITY.	No	Yes
+173	Women's Top — Variant 2	Women	320	459	30	4.8	15804	78	AST-WOM-0173	Women's Top — Variant 2 available on ASTOMITY.	No	Yes
+174	Women's Ethnic Set — Variant 2	Women	740	1229	40	4.4	19057	342	AST-WOM-0174	Women's Ethnic Set — Variant 2 available on ASTOMITY.	No	Yes
+175	Women's Sandals — Variant 2	Women	500	629	20	4.1	18593	175	AST-WOM-0175	Women's Sandals — Variant 2 available on ASTOMITY.	No	No
+176	Women's Sneakers — Variant 2	Women	1070	1429	25	4.1	13787	330	AST-WOM-0176	Women's Sneakers — Variant 2 available on ASTOMITY.	No	No
+177	Women's Dupatta — Variant 2	Women	790	1059	25	4.6	12614	250	AST-WOM-0177	Women's Dupatta — Variant 2 available on ASTOMITY.	No	No
+178	Women's Night Suit — Variant 2	Women	1140	1629	30	4.7	14201	176	AST-WOM-0178	Women's Night Suit — Variant 2 available on ASTOMITY.	No	Yes
+179	Women's Scarf — Variant 2	Women	230	269	15	4.8	6958	340	AST-WOM-0179	Women's Scarf — Variant 2 available on ASTOMITY.	No	No
+180	Women's Wallet — Variant 2	Women	660	939	30	4.5	5296	142	AST-WOM-0180	Women's Wallet — Variant 2 available on ASTOMITY.	No	Yes
+181	Women's Watch — Variant 2	Women	840	1679	50	4.1	237	229	AST-WOM-0181	Women's Watch — Variant 2 available on ASTOMITY.	No	Yes
+182	Women's Tote Bag — Variant 2	Women	960	1749	45	4.2	7735	167	AST-WOM-0182	Women's Tote Bag — Variant 2 available on ASTOMITY.	No	Yes
+183	Women's Kurti — Variant 3	Women	670	1219	45	4.1	7798	493	AST-WOM-0183	Women's Kurti — Variant 3 available on ASTOMITY.	No	Yes
+184	Women's Saree — Variant 3	Women	1610	2149	25	4.3	17994	135	AST-WOM-0184	Women's Saree — Variant 3 available on ASTOMITY.	No	No
+185	Women's Handbag — Variant 3	Women	3130	3909	20	4.7	4810	56	AST-WOM-0185	Women's Handbag — Variant 3 available on ASTOMITY.	No	No
+186	Women's Dress — Variant 3	Women	760	949	20	4.6	19648	403	AST-WOM-0186	Women's Dress — Variant 3 available on ASTOMITY.	No	No
+187	Women's Jeans — Variant 3	Women	1570	2249	30	4.4	15508	372	AST-WOM-0187	Women's Jeans — Variant 3 available on ASTOMITY.	No	Yes
+188	Women's Top — Variant 3	Women	470	779	40	4.8	16549	296	AST-WOM-0188	Women's Top — Variant 3 available on ASTOMITY.	No	Yes
+189	Women's Ethnic Set — Variant 3	Women	1880	3419	45	4.1	1456	475	AST-WOM-0189	Women's Ethnic Set — Variant 3 available on ASTOMITY.	No	Yes
+190	Women's Sandals — Variant 3	Women	1040	1599	35	4.5	997	66	AST-WOM-0190	Women's Sandals — Variant 3 available on ASTOMITY.	No	Yes
+191	Philips Mixer Grinder	Home & Kitchen	2850	3169	10	4.8	22179	440	AST-HOM-0191	Philips Mixer Grinder available on ASTOMITY.	No	No
+192	Electric Kettle	Home & Kitchen	1240	1379	10	4.6	5890	260	AST-HOM-0192	Electric Kettle available on ASTOMITY.	No	No
+193	Non-Stick Cookware Set	Home & Kitchen	2280	4149	45	4.7	6097	319	AST-HOM-0193	Non-Stick Cookware Set available on ASTOMITY.	No	Yes
+194	Stainless Steel Bottle	Home & Kitchen	470	849	45	4.8	15551	198	AST-HOM-0194	Stainless Steel Bottle available on ASTOMITY.	No	Yes
+195	Air Fryer	Home & Kitchen	4670	7179	35	4.3	3577	459	AST-HOM-0195	Air Fryer available on ASTOMITY.	No	Yes
+196	Induction Cooktop	Home & Kitchen	1380	2119	35	4.3	16385	167	AST-HOM-0196	Induction Cooktop available on ASTOMITY.	No	Yes
+197	Kitchen Storage Container Set	Home & Kitchen	760	1519	50	4	3035	181	AST-HOM-0197	Kitchen Storage Container Set available on ASTOMITY.	No	Yes
+198	Dinner Set	Home & Kitchen	1360	2089	35	4.1	13394	462	AST-HOM-0198	Dinner Set available on ASTOMITY.	No	Yes
+199	Bedsheet Set	Home & Kitchen	1720	1909	10	4.5	17929	256	AST-HOM-0199	Bedsheet Set available on ASTOMITY.	No	No
+200	Cotton Pillow Set	Home & Kitchen	830	919	10	4.2	12004	338	AST-HOM-0200	Cotton Pillow Set available on ASTOMITY.	No	No
+201	LED Table Lamp	Home & Kitchen	920	1669	45	4.6	6820	156	AST-HOM-0201	LED Table Lamp available on ASTOMITY.	No	Yes
+202	Wall Clock	Home & Kitchen	800	999	20	4.7	14506	470	AST-HOM-0202	Wall Clock available on ASTOMITY.	No	No
+203	Curtain Set	Home & Kitchen	1360	2479	45	4.1	20794	331	AST-HOM-0203	Curtain Set available on ASTOMITY.	No	Yes
+204	Vacuum Cleaner	Home & Kitchen	7120	8899	20	4.2	598	302	AST-HOM-0204	Vacuum Cleaner available on ASTOMITY.	No	No
+205	Water Purifier	Home & Kitchen	13050	15349	15	4.2	3867	256	AST-HOM-0205	Water Purifier available on ASTOMITY.	No	No
+206	Philips Mixer Grinder — Variant 2	Home & Kitchen	2080	2599	20	4.4	23631	169	AST-HOM-0206	Philips Mixer Grinder — Variant 2 available on ASTOMITY.	No	No
+207	Electric Kettle — Variant 2	Home & Kitchen	1400	1999	30	4.3	15960	261	AST-HOM-0207	Electric Kettle — Variant 2 available on ASTOMITY.	No	Yes
+208	Non-Stick Cookware Set — Variant 2	Home & Kitchen	1510	2739	45	4.4	12719	117	AST-HOM-0208	Non-Stick Cookware Set — Variant 2 available on ASTOMITY.	No	Yes
+209	Stainless Steel Bottle — Variant 2	Home & Kitchen	530	1059	50	4.6	4623	462	AST-HOM-0209	Stainless Steel Bottle — Variant 2 available on ASTOMITY.	No	Yes
+210	Air Fryer — Variant 2	Home & Kitchen	2600	3709	30	4.6	13746	194	AST-HOM-0210	Air Fryer — Variant 2 available on ASTOMITY.	No	Yes
+211	Induction Cooktop — Variant 2	Home & Kitchen	2720	3889	30	4.7	9418	391	AST-HOM-0211	Induction Cooktop — Variant 2 available on ASTOMITY.	No	Yes
+212	Kitchen Storage Container Set — Variant 2	Home & Kitchen	690	1259	45	4.7	14782	295	AST-HOM-0212	Kitchen Storage Container Set — Variant 2 available on ASTOMITY.	No	Yes
+213	Dinner Set — Variant 2	Home & Kitchen	2120	3269	35	4.3	17957	213	AST-HOM-0213	Dinner Set — Variant 2 available on ASTOMITY.	No	Yes
+214	Bedsheet Set — Variant 2	Home & Kitchen	1140	1759	35	4.7	23005	142	AST-HOM-0214	Bedsheet Set — Variant 2 available on ASTOMITY.	No	Yes
+215	Cotton Pillow Set — Variant 2	Home & Kitchen	680	1129	40	4.2	13610	42	AST-HOM-0215	Cotton Pillow Set — Variant 2 available on ASTOMITY.	No	Yes
+216	LED Table Lamp — Variant 2	Home & Kitchen	660	1209	45	4.6	12642	217	AST-HOM-0216	LED Table Lamp — Variant 2 available on ASTOMITY.	No	Yes
+217	Wall Clock — Variant 2	Home & Kitchen	910	1139	20	4.4	1363	84	AST-HOM-0217	Wall Clock — Variant 2 available on ASTOMITY.	No	No
+218	Curtain Set — Variant 2	Home & Kitchen	1290	1979	35	4.7	14577	71	AST-HOM-0218	Curtain Set — Variant 2 available on ASTOMITY.	No	Yes
+219	Vacuum Cleaner — Variant 2	Home & Kitchen	8120	14769	45	4	4873	229	AST-HOM-0219	Vacuum Cleaner — Variant 2 available on ASTOMITY.	No	Yes
+220	Water Purifier — Variant 2	Home & Kitchen	8640	10159	15	4.4	8834	193	AST-HOM-0220	Water Purifier — Variant 2 available on ASTOMITY.	No	No
+221	Philips Mixer Grinder — Variant 3	Home & Kitchen	3420	4029	15	4.7	22247	459	AST-HOM-0221	Philips Mixer Grinder — Variant 3 available on ASTOMITY.	No	No
+222	Electric Kettle — Variant 3	Home & Kitchen	1240	2059	40	4.8	20688	387	AST-HOM-0222	Electric Kettle — Variant 3 available on ASTOMITY.	No	Yes
+223	Non-Stick Cookware Set — Variant 3	Home & Kitchen	1990	3989	50	4	2392	140	AST-HOM-0223	Non-Stick Cookware Set — Variant 3 available on ASTOMITY.	No	Yes
+224	Stainless Steel Bottle — Variant 3	Home & Kitchen	770	1099	30	4.8	24620	66	AST-HOM-0224	Stainless Steel Bottle — Variant 3 available on ASTOMITY.	No	Yes
+225	Air Fryer — Variant 3	Home & Kitchen	6320	7439	15	4.6	23215	466	AST-HOM-0225	Air Fryer — Variant 3 available on ASTOMITY.	No	No
+226	Induction Cooktop — Variant 3	Home & Kitchen	990	1809	45	4.1	9962	482	AST-HOM-0226	Induction Cooktop — Variant 3 available on ASTOMITY.	No	Yes
+227	Kitchen Storage Container Set — Variant 3	Home & Kitchen	510	569	10	4.3	1988	170	AST-HOM-0227	Kitchen Storage Container Set — Variant 3 available on ASTOMITY.	No	No
+228	Dinner Set — Variant 3	Home & Kitchen	1710	2629	35	4.3	8151	291	AST-HOM-0228	Dinner Set — Variant 3 available on ASTOMITY.	No	Yes
+229	Wild Stone Code Perfume	Beauty	740	919	20	4.1	2737	332	AST-BEA-0229	Wild Stone Code Perfume available on ASTOMITY.	No	No
+230	Face Wash	Beauty	330	439	25	4.4	19258	93	AST-BEA-0230	Face Wash available on ASTOMITY.	No	No
+231	Moisturizer	Beauty	300	539	45	4.5	15209	150	AST-BEA-0231	Moisturizer available on ASTOMITY.	No	Yes
+232	Sunscreen SPF 50	Beauty	1030	1149	10	4.7	15395	481	AST-BEA-0232	Sunscreen SPF 50 available on ASTOMITY.	No	No
+233	Shampoo	Beauty	300	609	50	4.1	14624	196	AST-BEA-0233	Shampoo available on ASTOMITY.	No	Yes
+234	Conditioner	Beauty	380	629	40	4.6	15119	452	AST-BEA-0234	Conditioner available on ASTOMITY.	No	Yes
+235	Body Lotion	Beauty	290	389	25	4.8	15983	74	AST-BEA-0235	Body Lotion available on ASTOMITY.	No	No
+236	Lip Balm	Beauty	150	249	40	4.5	18985	171	AST-BEA-0236	Lip Balm available on ASTOMITY.	No	Yes
+237	Face Serum	Beauty	830	1189	30	4	21718	222	AST-BEA-0237	Face Serum available on ASTOMITY.	No	Yes
+238	Makeup Kit	Beauty	1170	1299	10	4.5	22622	418	AST-BEA-0238	Makeup Kit available on ASTOMITY.	No	No
+239	Beard Grooming Kit	Beauty	340	619	45	4.7	9528	417	AST-BEA-0239	Beard Grooming Kit available on ASTOMITY.	No	Yes
+240	Hair Dryer	Beauty	1410	2169	35	4.2	6380	337	AST-BEA-0240	Hair Dryer available on ASTOMITY.	No	Yes
+241	Electric Trimmer	Beauty	1150	1439	20	4.5	20710	350	AST-BEA-0241	Electric Trimmer available on ASTOMITY.	No	No
+242	Nail Care Kit	Beauty	170	249	30	4.6	1243	316	AST-BEA-0242	Nail Care Kit available on ASTOMITY.	No	Yes
+243	Bath & Body Gift Set	Beauty	1060	1329	20	4.1	9820	187	AST-BEA-0243	Bath & Body Gift Set available on ASTOMITY.	No	No
+244	Wild Stone Code Perfume — Variant 2	Beauty	740	929	20	4.2	17825	468	AST-BEA-0244	Wild Stone Code Perfume — Variant 2 available on ASTOMITY.	No	No
+245	Face Wash — Variant 2	Beauty	210	429	50	4.4	9080	445	AST-BEA-0245	Face Wash — Variant 2 available on ASTOMITY.	No	Yes
+246	Moisturizer — Variant 2	Beauty	320	459	30	4.7	15939	432	AST-BEA-0246	Moisturizer — Variant 2 available on ASTOMITY.	No	Yes
+247	Sunscreen SPF 50 — Variant 2	Beauty	430	669	35	4.6	15496	58	AST-BEA-0247	Sunscreen SPF 50 — Variant 2 available on ASTOMITY.	No	Yes
+248	Shampoo — Variant 2	Beauty	320	429	25	4.7	23881	365	AST-BEA-0248	Shampoo — Variant 2 available on ASTOMITY.	No	No
+249	Conditioner — Variant 2	Beauty	370	749	50	4.3	13079	27	AST-BEA-0249	Conditioner — Variant 2 available on ASTOMITY.	No	Yes
+250	Body Lotion — Variant 2	Beauty	180	359	50	4.1	12227	364	AST-BEA-0250	Body Lotion — Variant 2 available on ASTOMITY.	No	Yes
+251	Lip Balm — Variant 2	Beauty	160	259	40	4.7	12322	75	AST-BEA-0251	Lip Balm — Variant 2 available on ASTOMITY.	No	Yes
+252	Face Serum — Variant 2	Beauty	870	1159	25	4.4	20451	472	AST-BEA-0252	Face Serum — Variant 2 available on ASTOMITY.	No	No
+253	Makeup Kit — Variant 2	Beauty	1320	2029	35	4.7	7403	351	AST-BEA-0253	Makeup Kit — Variant 2 available on ASTOMITY.	No	Yes
+254	Beard Grooming Kit — Variant 2	Beauty	360	659	45	4.7	10052	352	AST-BEA-0254	Beard Grooming Kit — Variant 2 available on ASTOMITY.	No	Yes
+255	Hair Dryer — Variant 2	Beauty	2620	3089	15	4.1	1369	175	AST-BEA-0255	Hair Dryer — Variant 2 available on ASTOMITY.	No	No
+256	Electric Trimmer — Variant 2	Beauty	1750	2059	15	4.1	17764	89	AST-BEA-0256	Electric Trimmer — Variant 2 available on ASTOMITY.	No	No
+257	Nail Care Kit — Variant 2	Beauty	380	689	45	4.3	24501	376	AST-BEA-0257	Nail Care Kit — Variant 2 available on ASTOMITY.	No	Yes
+258	Bath & Body Gift Set — Variant 2	Beauty	1070	1779	40	4.5	23959	99	AST-BEA-0258	Bath & Body Gift Set — Variant 2 available on ASTOMITY.	No	Yes
+259	Wild Stone Code Perfume — Variant 3	Beauty	790	929	15	4.7	20323	228	AST-BEA-0259	Wild Stone Code Perfume — Variant 3 available on ASTOMITY.	No	No
+260	Face Wash — Variant 3	Beauty	330	369	10	4.6	7269	247	AST-BEA-0260	Face Wash — Variant 3 available on ASTOMITY.	No	No
+261	Moisturizer — Variant 3	Beauty	610	809	25	4.7	3405	371	AST-BEA-0261	Moisturizer — Variant 3 available on ASTOMITY.	No	No
+262	Sunscreen SPF 50 — Variant 3	Beauty	380	769	50	4.7	21279	203	AST-BEA-0262	Sunscreen SPF 50 — Variant 3 available on ASTOMITY.	No	Yes
+263	Shampoo — Variant 3	Beauty	190	319	40	4.2	4152	454	AST-BEA-0263	Shampoo — Variant 3 available on ASTOMITY.	No	Yes
+264	Conditioner — Variant 3	Beauty	700	829	15	4.5	21177	347	AST-BEA-0264	Conditioner — Variant 3 available on ASTOMITY.	No	No
+265	Body Lotion — Variant 3	Beauty	520	579	10	4	11078	144	AST-BEA-0265	Body Lotion — Variant 3 available on ASTOMITY.	No	No
+266	Basmati Rice 5kg	Grocery	360	479	25	4.1	18310	126	AST-GRO-0266	Basmati Rice 5kg available on ASTOMITY.	No	No
+267	Wheat Flour 5kg	Grocery	320	429	25	4.7	7784	188	AST-GRO-0267	Wheat Flour 5kg available on ASTOMITY.	No	No
+268	Toor Dal 1kg	Grocery	200	249	20	4.6	19679	21	AST-GRO-0268	Toor Dal 1kg available on ASTOMITY.	No	No
+269	Moong Dal 1kg	Grocery	130	159	20	4.8	17851	148	AST-GRO-0269	Moong Dal 1kg available on ASTOMITY.	No	No
+270	Sugar 5kg	Grocery	190	219	15	4.5	994	87	AST-GRO-0270	Sugar 5kg available on ASTOMITY.	No	No
+271	Salt 1kg	Grocery	50	20	35	4.6	7946	321	AST-GRO-0271	Salt 1kg available on ASTOMITY.	No	Yes
+272	Refined Cooking Oil 1L	Grocery	130	149	10	4.1	1867	84	AST-GRO-0272	Refined Cooking Oil 1L available on ASTOMITY.	No	No
+273	Mustard Oil 1L	Grocery	140	239	40	4.4	24583	52	AST-GRO-0273	Mustard Oil 1L available on ASTOMITY.	No	Yes
+274	Tea 500g	Grocery	190	349	45	4.6	16967	323	AST-GRO-0274	Tea 500g available on ASTOMITY.	No	Yes
+275	Coffee 200g	Grocery	110	209	45	4.4	20305	42	AST-GRO-0275	Coffee 200g available on ASTOMITY.	No	Yes
+276	Biscuits Family Pack	Grocery	180	259	30	4.4	1170	51	AST-GRO-0276	Biscuits Family Pack available on ASTOMITY.	No	Yes
+277	Corn Flakes	Grocery	180	299	40	4.3	3687	271	AST-GRO-0277	Corn Flakes available on ASTOMITY.	No	Yes
+278	Peanut Butter	Grocery	230	419	45	4.1	2797	184	AST-GRO-0278	Peanut Butter available on ASTOMITY.	No	Yes
+279	Dry Fruits Combo	Grocery	940	1169	20	4.1	9161	339	AST-GRO-0279	Dry Fruits Combo available on ASTOMITY.	No	No
+280	Spices Combo Pack	Grocery	300	599	50	4.6	12631	325	AST-GRO-0280	Spices Combo Pack available on ASTOMITY.	No	Yes
+281	Basmati Rice 5kg — Variant 2	Grocery	510	729	30	4.4	19988	240	AST-GRO-0281	Basmati Rice 5kg — Variant 2 available on ASTOMITY.	No	Yes
+282	Wheat Flour 5kg — Variant 2	Grocery	240	279	15	4.7	21479	469	AST-GRO-0282	Wheat Flour 5kg — Variant 2 available on ASTOMITY.	No	No
+283	Toor Dal 1kg — Variant 2	Grocery	120	249	50	4.6	7195	240	AST-GRO-0283	Toor Dal 1kg — Variant 2 available on ASTOMITY.	No	Yes
+284	Moong Dal 1kg — Variant 2	Grocery	140	189	25	4.3	15010	224	AST-GRO-0284	Moong Dal 1kg — Variant 2 available on ASTOMITY.	No	No
+285	Sugar 5kg — Variant 2	Grocery	220	259	15	4.3	10390	360	AST-GRO-0285	Sugar 5kg — Variant 2 available on ASTOMITY.	No	No
+286	Salt 1kg — Variant 2	Grocery	50	40	35	4.8	22655	492	AST-GRO-0286	Salt 1kg — Variant 2 available on ASTOMITY.	No	Yes
+287	Refined Cooking Oil 1L — Variant 2	Grocery	140	169	15	4.1	2947	67	AST-GRO-0287	Refined Cooking Oil 1L — Variant 2 available on ASTOMITY.	No	No
+288	Mustard Oil 1L — Variant 2	Grocery	160	189	15	4.6	12360	435	AST-GRO-0288	Mustard Oil 1L — Variant 2 available on ASTOMITY.	No	No
+289	Tea 500g — Variant 2	Grocery	120	239	50	4	18552	307	AST-GRO-0289	Tea 500g — Variant 2 available on ASTOMITY.	No	Yes
+290	Coffee 200g — Variant 2	Grocery	300	359	15	4.3	21951	404	AST-GRO-0290	Coffee 200g — Variant 2 available on ASTOMITY.	No	No
+291	Biscuits Family Pack — Variant 2	Grocery	210	229	10	4.8	19824	179	AST-GRO-0291	Biscuits Family Pack — Variant 2 available on ASTOMITY.	No	No
+292	Corn Flakes — Variant 2	Grocery	220	259	15	4.5	7121	99	AST-GRO-0292	Corn Flakes — Variant 2 available on ASTOMITY.	No	No
+293	Peanut Butter — Variant 2	Grocery	220	409	45	4.2	3696	199	AST-GRO-0293	Peanut Butter — Variant 2 available on ASTOMITY.	No	Yes
+294	Dry Fruits Combo — Variant 2	Grocery	720	1109	35	4.1	9278	313	AST-GRO-0294	Dry Fruits Combo — Variant 2 available on ASTOMITY.	No	Yes
+295	Spices Combo Pack — Variant 2	Grocery	200	339	40	4.7	20522	334	AST-GRO-0295	Spices Combo Pack — Variant 2 available on ASTOMITY.	No	Yes
+296	Basmati Rice 5kg — Variant 3	Grocery	410	829	50	4	21705	444	AST-GRO-0296	Basmati Rice 5kg — Variant 3 available on ASTOMITY.	No	Yes
+297	Wheat Flour 5kg — Variant 3	Grocery	330	469	30	4	9104	379	AST-GRO-0297	Wheat Flour 5kg — Variant 3 available on ASTOMITY.	No	Yes
+298	Toor Dal 1kg — Variant 3	Grocery	170	249	30	4.7	11652	23	AST-GRO-0298	Toor Dal 1kg — Variant 3 available on ASTOMITY.	No	Yes
+299	Moong Dal 1kg — Variant 3	Grocery	110	139	20	4.5	13282	55	AST-GRO-0299	Moong Dal 1kg — Variant 3 available on ASTOMITY.	No	No
+300	Sugar 5kg — Variant 3	Grocery	200	219	10	4.1	17532	130	AST-GRO-0300	Sugar 5kg — Variant 3 available on ASTOMITY.	No	No
+301	Salt 1kg — Variant 3	Grocery	50	50	40	4.4	5307	209	AST-GRO-0301	Salt 1kg — Variant 3 available on ASTOMITY.	No	Yes
+302	Refined Cooking Oil 1L — Variant 3	Grocery	90	139	35	4.6	18748	325	AST-GRO-0302	Refined Cooking Oil 1L — Variant 3 available on ASTOMITY.	No	Yes
+303	Football	Sports	550	609	10	4.1	24871	336	AST-SPO-0303	Football available on ASTOMITY.	No	No
+304	Cricket Bat	Sports	1100	1299	15	4.2	21840	237	AST-SPO-0304	Cricket Bat available on ASTOMITY.	No	No
+305	Cricket Ball Pack	Sports	500	919	45	4.3	7213	406	AST-SPO-0305	Cricket Ball Pack available on ASTOMITY.	No	Yes
+306	Badminton Racket	Sports	2820	3319	15	4.3	3783	165	AST-SPO-0306	Badminton Racket available on ASTOMITY.	No	No
+307	Badminton Shuttle Pack	Sports	340	629	45	4.4	10256	43	AST-SPO-0307	Badminton Shuttle Pack available on ASTOMITY.	No	Yes
+308	Table Tennis Set	Sports	580	959	40	4.8	1945	23	AST-SPO-0308	Table Tennis Set available on ASTOMITY.	No	Yes
+309	Yoga Mat	Sports	640	919	30	4.8	4646	411	AST-SPO-0309	Yoga Mat available on ASTOMITY.	No	Yes
+310	Resistance Band Set	Sports	430	619	30	4.3	403	274	AST-SPO-0310	Resistance Band Set available on ASTOMITY.	No	Yes
+311	Skipping Rope	Sports	370	619	40	4.1	12608	292	AST-SPO-0311	Skipping Rope available on ASTOMITY.	No	Yes
+312	Dumbbell Pair	Sports	1800	2399	25	4.4	22040	432	AST-SPO-0312	Dumbbell Pair available on ASTOMITY.	No	No
+313	Gym Gloves	Sports	640	749	15	4.3	24465	41	AST-SPO-0313	Gym Gloves available on ASTOMITY.	No	No
+314	Sports Water Bottle	Sports	760	849	10	4.4	2701	461	AST-SPO-0314	Sports Water Bottle available on ASTOMITY.	No	No
+315	Cycling Helmet	Sports	960	1599	40	4.5	23398	347	AST-SPO-0315	Cycling Helmet available on ASTOMITY.	No	Yes
+316	Running Cap	Sports	320	459	30	4.1	833	186	AST-SPO-0316	Running Cap available on ASTOMITY.	No	Yes
+317	Sports Backpack	Sports	560	1029	45	4.7	12007	65	AST-SPO-0317	Sports Backpack available on ASTOMITY.	No	Yes
+318	Football — Variant 2	Sports	1280	1509	15	4.2	19446	225	AST-SPO-0318	Football — Variant 2 available on ASTOMITY.	No	No
+319	Cricket Bat — Variant 2	Sports	960	1599	40	4.7	24588	193	AST-SPO-0319	Cricket Bat — Variant 2 available on ASTOMITY.	No	Yes
+320	Cricket Ball Pack — Variant 2	Sports	380	579	35	4.6	2652	281	AST-SPO-0320	Cricket Ball Pack — Variant 2 available on ASTOMITY.	No	Yes
+321	Badminton Racket — Variant 2	Sports	3350	3939	15	4.4	6503	483	AST-SPO-0321	Badminton Racket — Variant 2 available on ASTOMITY.	No	No
+322	Badminton Shuttle Pack — Variant 2	Sports	450	689	35	4.3	21299	437	AST-SPO-0322	Badminton Shuttle Pack — Variant 2 available on ASTOMITY.	No	Yes
+323	Table Tennis Set — Variant 2	Sports	580	769	25	4.1	8537	121	AST-SPO-0323	Table Tennis Set — Variant 2 available on ASTOMITY.	No	No
+324	Yoga Mat — Variant 2	Sports	670	839	20	4.6	21629	58	AST-SPO-0324	Yoga Mat — Variant 2 available on ASTOMITY.	No	No
+325	Resistance Band Set — Variant 2	Sports	280	519	45	4.4	18622	409	AST-SPO-0325	Resistance Band Set — Variant 2 available on ASTOMITY.	No	Yes
+326	Skipping Rope — Variant 2	Sports	280	519	45	4.5	18647	349	AST-SPO-0326	Skipping Rope — Variant 2 available on ASTOMITY.	No	Yes
+327	Dumbbell Pair — Variant 2	Sports	1440	2219	35	4.7	20702	181	AST-SPO-0327	Dumbbell Pair — Variant 2 available on ASTOMITY.	No	Yes
+328	Gym Gloves — Variant 2	Sports	270	489	45	4.1	14640	343	AST-SPO-0328	Gym Gloves — Variant 2 available on ASTOMITY.	No	Yes
+329	Sports Water Bottle — Variant 2	Sports	480	679	30	4.5	11682	279	AST-SPO-0329	Sports Water Bottle — Variant 2 available on ASTOMITY.	No	Yes
+330	Cycling Helmet — Variant 2	Sports	680	979	30	4.4	1382	49	AST-SPO-0330	Cycling Helmet — Variant 2 available on ASTOMITY.	No	Yes
+331	Running Cap — Variant 2	Sports	300	429	30	4.1	3108	334	AST-SPO-0331	Running Cap — Variant 2 available on ASTOMITY.	No	Yes
+332	Sports Backpack — Variant 2	Sports	1060	2119	50	4.3	19166	303	AST-SPO-0332	Sports Backpack — Variant 2 available on ASTOMITY.	No	Yes
+333	Football — Variant 3	Sports	270	499	45	4.7	18882	353	AST-SPO-0333	Football — Variant 3 available on ASTOMITY.	No	Yes
+334	Cricket Bat — Variant 3	Sports	1770	2719	35	4.5	16578	97	AST-SPO-0334	Cricket Bat — Variant 3 available on ASTOMITY.	No	Yes
+335	Cricket Ball Pack — Variant 3	Sports	200	369	45	4.1	11403	385	AST-SPO-0335	Cricket Ball Pack — Variant 3 available on ASTOMITY.	No	Yes
+336	Badminton Racket — Variant 3	Sports	560	1129	50	4.5	1432	146	AST-SPO-0336	Badminton Racket — Variant 3 available on ASTOMITY.	No	Yes
+337	Badminton Shuttle Pack — Variant 3	Sports	360	649	45	4.8	17322	287	AST-SPO-0337	Badminton Shuttle Pack — Variant 3 available on ASTOMITY.	No	Yes
+338	Table Tennis Set — Variant 3	Sports	1570	1959	20	4.3	9419	218	AST-SPO-0338	Table Tennis Set — Variant 3 available on ASTOMITY.	No	No
+339	Yoga Mat — Variant 3	Sports	940	1439	35	4.5	1865	424	AST-SPO-0339	Yoga Mat — Variant 3 available on ASTOMITY.	No	Yes
+340	Atomic Habits — James Clear	Books	320	499	35	4.1	3246	305	AST-BOO-0340	Atomic Habits — James Clear available on ASTOMITY.	No	Yes
+341	The Psychology of Money	Books	240	409	40	4.2	23865	456	AST-BOO-0341	The Psychology of Money available on ASTOMITY.	No	Yes
+342	Rich Dad Poor Dad	Books	330	409	20	4.3	19245	359	AST-BOO-0342	Rich Dad Poor Dad available on ASTOMITY.	No	No
+343	Ikigai	Books	160	239	35	4.2	21647	377	AST-BOO-0343	Ikigai available on ASTOMITY.	No	Yes
+344	Deep Work	Books	400	499	20	4.5	2926	178	AST-BOO-0344	Deep Work available on ASTOMITY.	No	No
+345	Think and Grow Rich	Books	190	319	40	4.5	10913	436	AST-BOO-0345	Think and Grow Rich available on ASTOMITY.	No	Yes
+346	The Alchemist	Books	90	189	50	4.1	22119	236	AST-BOO-0346	The Alchemist available on ASTOMITY.	No	Yes
+347	Wings of Fire	Books	230	359	35	4	10270	112	AST-BOO-0347	Wings of Fire available on ASTOMITY.	No	Yes
+348	Python Programming Guide	Books	750	999	25	4.3	16084	118	AST-BOO-0348	Python Programming Guide available on ASTOMITY.	No	No
+349	Data Structures Handbook	Books	350	439	20	4.1	9842	452	AST-BOO-0349	Data Structures Handbook available on ASTOMITY.	No	No
+350	Digital Marketing Guide	Books	680	799	15	4.4	17837	447	AST-BOO-0350	Digital Marketing Guide available on ASTOMITY.	No	No
+351	Java Programming	Books	430	869	50	4	11185	468	AST-BOO-0351	Java Programming available on ASTOMITY.	No	Yes
+352	Web Development Handbook	Books	630	789	20	4.5	5204	103	AST-BOO-0352	Web Development Handbook available on ASTOMITY.	No	No
+353	English Grammar Guide	Books	250	309	20	4.6	1581	230	AST-BOO-0353	English Grammar Guide available on ASTOMITY.	No	No
+354	Competitive Aptitude Book	Books	360	479	25	4.8	20157	165	AST-BOO-0354	Competitive Aptitude Book available on ASTOMITY.	No	No
+355	Atomic Habits — James Clear — Variant 2	Books	300	539	45	4.2	7987	178	AST-BOO-0355	Atomic Habits — James Clear — Variant 2 available on ASTOMITY.	No	Yes
+356	The Psychology of Money — Variant 2	Books	270	499	45	4.7	6507	208	AST-BOO-0356	The Psychology of Money — Variant 2 available on ASTOMITY.	No	Yes
+357	Rich Dad Poor Dad — Variant 2	Books	220	409	45	4.4	9383	418	AST-BOO-0357	Rich Dad Poor Dad — Variant 2 available on ASTOMITY.	No	Yes
+358	Ikigai — Variant 2	Books	160	319	50	4.4	5460	438	AST-BOO-0358	Ikigai — Variant 2 available on ASTOMITY.	No	Yes
+359	Deep Work — Variant 2	Books	300	369	20	4.7	1859	348	AST-BOO-0359	Deep Work — Variant 2 available on ASTOMITY.	No	No
+360	Think and Grow Rich — Variant 2	Books	190	299	35	4.4	3511	384	AST-BOO-0360	Think and Grow Rich — Variant 2 available on ASTOMITY.	No	Yes
+361	The Alchemist — Variant 2	Books	260	309	15	4.2	5403	159	AST-BOO-0361	The Alchemist — Variant 2 available on ASTOMITY.	No	No
+362	Wings of Fire — Variant 2	Books	170	339	50	4.1	14485	66	AST-BOO-0362	Wings of Fire — Variant 2 available on ASTOMITY.	No	Yes
+363	Python Programming Guide — Variant 2	Books	750	999	25	4.7	11605	496	AST-BOO-0363	Python Programming Guide — Variant 2 available on ASTOMITY.	No	No
+364	Data Structures Handbook — Variant 2	Books	180	309	40	4	16599	211	AST-BOO-0364	Data Structures Handbook — Variant 2 available on ASTOMITY.	No	Yes
+365	Digital Marketing Guide — Variant 2	Books	270	449	40	4.8	12435	134	AST-BOO-0365	Digital Marketing Guide — Variant 2 available on ASTOMITY.	No	Yes
+366	Java Programming — Variant 2	Books	260	409	35	4.7	23569	352	AST-BOO-0366	Java Programming — Variant 2 available on ASTOMITY.	No	Yes
+367	Web Development Handbook — Variant 2	Books	410	509	20	4.1	9550	489	AST-BOO-0367	Web Development Handbook — Variant 2 available on ASTOMITY.	No	No
+368	English Grammar Guide — Variant 2	Books	400	499	20	4.6	15521	249	AST-BOO-0368	English Grammar Guide — Variant 2 available on ASTOMITY.	No	No
+369	Competitive Aptitude Book — Variant 2	Books	580	639	10	4.7	772	151	AST-BOO-0369	Competitive Aptitude Book — Variant 2 available on ASTOMITY.	No	No
+370	Atomic Habits — James Clear — Variant 3	Books	290	359	20	4.4	23980	331	AST-BOO-0370	Atomic Habits — James Clear — Variant 3 available on ASTOMITY.	No	No
+371	The Psychology of Money — Variant 3	Books	220	359	40	4.1	9590	141	AST-BOO-0371	The Psychology of Money — Variant 3 available on ASTOMITY.	No	Yes
+372	Rich Dad Poor Dad — Variant 3	Books	240	289	15	4	13906	347	AST-BOO-0372	Rich Dad Poor Dad — Variant 3 available on ASTOMITY.	No	No
+373	Ikigai — Variant 3	Books	250	449	45	4.1	16528	325	AST-BOO-0373	Ikigai — Variant 3 available on ASTOMITY.	No	Yes
+374	Deep Work — Variant 3	Books	530	589	10	4.5	18993	143	AST-BOO-0374	Deep Work — Variant 3 available on ASTOMITY.	No	No
+375	Think and Grow Rich — Variant 3	Books	300	369	20	4.2	201	334	AST-BOO-0375	Think and Grow Rich — Variant 3 available on ASTOMITY.	No	No
+376	The Alchemist — Variant 3	Books	190	259	25	4.5	6287	360	AST-BOO-0376	The Alchemist — Variant 3 available on ASTOMITY.	No	No
+377	Remote Control Car	Toys	1960	2309	15	4.4	11966	54	AST-TOY-0377	Remote Control Car available on ASTOMITY.	No	No
+378	Building Blocks Set	Toys	870	1739	50	4.4	16783	303	AST-TOY-0378	Building Blocks Set available on ASTOMITY.	No	Yes
+379	Educational Puzzle	Toys	130	219	40	4.7	1576	345	AST-TOY-0379	Educational Puzzle available on ASTOMITY.	No	Yes
+380	Toy Kitchen Set	Toys	970	1489	35	4.2	682	202	AST-TOY-0380	Toy Kitchen Set available on ASTOMITY.	No	Yes
+381	Action Figure	Toys	1100	1299	15	4.3	24167	356	AST-TOY-0381	Action Figure available on ASTOMITY.	No	No
+382	Soft Teddy Bear	Toys	1700	1999	15	4.6	24240	407	AST-TOY-0382	Soft Teddy Bear available on ASTOMITY.	No	No
+383	Board Game	Toys	580	719	20	4	18041	193	AST-TOY-0383	Board Game available on ASTOMITY.	No	No
+384	Kids Drawing Kit	Toys	230	419	45	4.8	15830	343	AST-TOY-0384	Kids Drawing Kit available on ASTOMITY.	No	Yes
+385	Toy Train Set	Toys	850	1059	20	4.1	15147	38	AST-TOY-0385	Toy Train Set available on ASTOMITY.	No	No
+386	Kids Bicycle	Toys	4500	5999	25	4	6686	473	AST-TOY-0386	Kids Bicycle available on ASTOMITY.	No	No
+387	Science Experiment Kit	Toys	320	499	35	4.7	17038	223	AST-TOY-0387	Science Experiment Kit available on ASTOMITY.	No	Yes
+388	Musical Toy	Toys	540	989	45	4.2	24833	351	AST-TOY-0388	Musical Toy available on ASTOMITY.	No	Yes
+389	Doll House	Toys	1240	1769	30	4.3	1716	463	AST-TOY-0389	Doll House available on ASTOMITY.	No	Yes
+390	Water Gun Set	Toys	430	619	30	4.1	12209	243	AST-TOY-0390	Water Gun Set available on ASTOMITY.	No	Yes
+391	Kids School Bag	Toys	840	1519	45	4.7	12819	193	AST-TOY-0391	Kids School Bag available on ASTOMITY.	No	Yes
+392	Remote Control Car — Variant 2	Toys	590	1069	45	4.6	12187	493	AST-TOY-0392	Remote Control Car — Variant 2 available on ASTOMITY.	No	Yes
+393	Building Blocks Set — Variant 2	Toys	1200	1719	30	4.6	23975	237	AST-TOY-0393	Building Blocks Set — Variant 2 available on ASTOMITY.	No	Yes
+394	Educational Puzzle — Variant 2	Toys	180	299	40	4.5	6063	299	AST-TOY-0394	Educational Puzzle — Variant 2 available on ASTOMITY.	No	Yes
+395	Toy Kitchen Set — Variant 2	Toys	810	1249	35	4.1	10895	358	AST-TOY-0395	Toy Kitchen Set — Variant 2 available on ASTOMITY.	No	Yes
+396	Action Figure — Variant 2	Toys	470	669	30	4.4	23666	238	AST-TOY-0396	Action Figure — Variant 2 available on ASTOMITY.	No	Yes
+397	Soft Teddy Bear — Variant 2	Toys	450	819	45	4.3	1537	392	AST-TOY-0397	Soft Teddy Bear — Variant 2 available on ASTOMITY.	No	Yes
+398	Board Game — Variant 2	Toys	920	1409	35	4.5	14402	160	AST-TOY-0398	Board Game — Variant 2 available on ASTOMITY.	No	Yes
+399	Kids Drawing Kit — Variant 2	Toys	230	269	15	4.5	13460	206	AST-TOY-0399	Kids Drawing Kit — Variant 2 available on ASTOMITY.	No	No
+400	Toy Train Set — Variant 2	Toys	1530	1909	20	4.8	4828	454	AST-TOY-0400	Toy Train Set — Variant 2 available on ASTOMITY.	No	No
+401	Kids Bicycle — Variant 2	Toys	6730	7479	10	4.1	7883	418	AST-TOY-0401	Kids Bicycle — Variant 2 available on ASTOMITY.	No	No
+402	Science Experiment Kit — Variant 2	Toys	860	1329	35	4.3	18737	36	AST-TOY-0402	Science Experiment Kit — Variant 2 available on ASTOMITY.	No	Yes
+403	Musical Toy — Variant 2	Toys	860	1069	20	4.5	12305	210	AST-TOY-0403	Musical Toy — Variant 2 available on ASTOMITY.	No	No
+404	Doll House — Variant 2	Toys	2610	3069	15	4.5	17499	207	AST-TOY-0404	Doll House — Variant 2 available on ASTOMITY.	No	No
+405	Water Gun Set — Variant 2	Toys	450	699	35	4.5	8329	78	AST-TOY-0405	Water Gun Set — Variant 2 available on ASTOMITY.	No	Yes
+406	Kids School Bag — Variant 2	Toys	450	559	20	4.4	12830	487	AST-TOY-0406	Kids School Bag — Variant 2 available on ASTOMITY.	No	No
+407	Remote Control Car — Variant 3	Toys	1720	2029	15	4.2	8679	380	AST-TOY-0407	Remote Control Car — Variant 3 available on ASTOMITY.	No	No
+408	Building Blocks Set — Variant 3	Toys	1150	1539	25	4.8	9507	375	AST-TOY-0408	Building Blocks Set — Variant 3 available on ASTOMITY.	No	No
+409	Educational Puzzle — Variant 3	Toys	610	819	25	4.1	2576	251	AST-TOY-0409	Educational Puzzle — Variant 3 available on ASTOMITY.	No	No
+410	Toy Kitchen Set — Variant 3	Toys	520	939	45	4.8	22495	452	AST-TOY-0410	Toy Kitchen Set — Variant 3 available on ASTOMITY.	No	Yes
+411	Action Figure — Variant 3	Toys	450	699	35	4.6	18172	297	AST-TOY-0411	Action Figure — Variant 3 available on ASTOMITY.	No	Yes
+412	Soft Teddy Bear — Variant 3	Toys	800	1139	30	4.7	23474	383	AST-TOY-0412	Soft Teddy Bear — Variant 3 available on ASTOMITY.	No	Yes
+413	Board Game — Variant 3	Toys	1180	1479	20	4.6	16820	134	AST-TOY-0413	Board Game — Variant 3 available on ASTOMITY.	No	No
+414	Mega Deal Bluetooth Speaker	Deals	830	1109	25	4.6	7907	424	AST-DEA-0414	Mega Deal Bluetooth Speaker available on ASTOMITY.	No	No
+415	Flash Sale Earbuds	Deals	1670	1859	10	4.3	18902	208	AST-DEA-0415	Flash Sale Earbuds available on ASTOMITY.	No	No
+416	Deal Smart Watch	Deals	940	1889	50	4.1	2975	53	AST-DEA-0416	Deal Smart Watch available on ASTOMITY.	No	Yes
+417	Deal Power Bank	Deals	530	889	40	4.8	23705	265	AST-DEA-0417	Deal Power Bank available on ASTOMITY.	No	Yes
+418	Deal Backpack	Deals	700	1169	40	4.6	18988	57	AST-DEA-0418	Deal Backpack available on ASTOMITY.	No	Yes
+419	Deal Sneakers	Deals	730	1119	35	4.5	14894	258	AST-DEA-0419	Deal Sneakers available on ASTOMITY.	No	Yes
+420	Deal Headphones	Deals	1370	2739	50	4.3	18215	347	AST-DEA-0420	Deal Headphones available on ASTOMITY.	No	Yes
+421	Deal Mixer Grinder	Deals	2400	2999	20	4.6	4378	241	AST-DEA-0421	Deal Mixer Grinder available on ASTOMITY.	No	No
+422	Deal Air Fryer	Deals	4560	5069	10	4.7	17127	98	AST-DEA-0422	Deal Air Fryer available on ASTOMITY.	No	No
+423	Deal Trimmer	Deals	700	879	20	4.1	23393	135	AST-DEA-0423	Deal Trimmer available on ASTOMITY.	No	No
+424	Deal Laptop Stand	Deals	420	839	50	4.7	2734	148	AST-DEA-0424	Deal Laptop Stand available on ASTOMITY.	No	Yes
+425	Deal Keyboard	Deals	550	1099	50	4.2	20630	175	AST-DEA-0425	Deal Keyboard available on ASTOMITY.	No	Yes
+426	Deal Mouse	Deals	830	979	15	4.4	5675	323	AST-DEA-0426	Deal Mouse available on ASTOMITY.	No	No
+427	Deal Table Lamp	Deals	390	489	20	4.5	23763	481	AST-DEA-0427	Deal Table Lamp available on ASTOMITY.	No	No
+428	Deal Travel Bag	Deals	1400	1559	10	4.7	1079	61	AST-DEA-0428	Deal Travel Bag available on ASTOMITY.	No	No
+429	Mega Deal Bluetooth Speaker — Variant 2	Deals	640	909	30	4.5	18897	233	AST-DEA-0429	Mega Deal Bluetooth Speaker — Variant 2 available on ASTOMITY.	No	Yes
+430	Flash Sale Earbuds — Variant 2	Deals	370	669	45	4.7	18027	168	AST-DEA-0430	Flash Sale Earbuds — Variant 2 available on ASTOMITY.	No	Yes
+431	Deal Smart Watch — Variant 2	Deals	1640	2339	30	4.4	22595	227	AST-DEA-0431	Deal Smart Watch — Variant 2 available on ASTOMITY.	No	Yes
+432	Deal Power Bank — Variant 2	Deals	480	879	45	4.1	2113	100	AST-DEA-0432	Deal Power Bank — Variant 2 available on ASTOMITY.	No	Yes
+433	Deal Backpack — Variant 2	Deals	640	1059	40	4.4	6835	194	AST-DEA-0433	Deal Backpack — Variant 2 available on ASTOMITY.	No	Yes
+434	Deal Sneakers — Variant 2	Deals	1880	2349	20	4.3	23689	183	AST-DEA-0434	Deal Sneakers — Variant 2 available on ASTOMITY.	No	No
+435	Deal Headphones — Variant 2	Deals	1860	2869	35	4.8	4434	409	AST-DEA-0435	Deal Headphones — Variant 2 available on ASTOMITY.	No	Yes
+436	Deal Mixer Grinder — Variant 2	Deals	1220	2439	50	4.4	10606	143	AST-DEA-0436	Deal Mixer Grinder — Variant 2 available on ASTOMITY.	No	Yes
+437	Deal Air Fryer — Variant 2	Deals	4150	4879	15	4.2	8273	92	AST-DEA-0437	Deal Air Fryer — Variant 2 available on ASTOMITY.	No	No
+438	Deal Trimmer — Variant 2	Deals	560	619	10	4.2	12737	462	AST-DEA-0438	Deal Trimmer — Variant 2 available on ASTOMITY.	No	No
+439	Deal Laptop Stand — Variant 2	Deals	710	1179	40	4.2	5383	436	AST-DEA-0439	Deal Laptop Stand — Variant 2 available on ASTOMITY.	No	Yes
+440	Deal Keyboard — Variant 2	Deals	930	1429	35	4.2	5371	275	AST-DEA-0440	Deal Keyboard — Variant 2 available on ASTOMITY.	No	Yes
+441	Deal Mouse — Variant 2	Deals	520	949	45	4.4	10260	274	AST-DEA-0441	Deal Mouse — Variant 2 available on ASTOMITY.	No	Yes
+442	Deal Table Lamp — Variant 2	Deals	270	319	15	4.8	16712	254	AST-DEA-0442	Deal Table Lamp — Variant 2 available on ASTOMITY.	No	No
+443	Deal Travel Bag — Variant 2	Deals	980	1309	25	4.5	1744	45	AST-DEA-0443	Deal Travel Bag — Variant 2 available on ASTOMITY.	No	No
+444	Mega Deal Bluetooth Speaker — Variant 3	Deals	840	1519	45	4.5	21588	364	AST-DEA-0444	Mega Deal Bluetooth Speaker — Variant 3 available on ASTOMITY.	No	Yes
+445	Flash Sale Earbuds — Variant 3	Deals	1260	1799	30	4.4	3672	240	AST-DEA-0445	Flash Sale Earbuds — Variant 3 available on ASTOMITY.	No	Yes
+446	Deal Smart Watch — Variant 3	Deals	730	1039	30	4.6	13363	207	AST-DEA-0446	Deal Smart Watch — Variant 3 available on ASTOMITY.	No	Yes
+447	Deal Power Bank — Variant 3	Deals	330	549	40	4	18559	119	AST-DEA-0447	Deal Power Bank — Variant 3 available on ASTOMITY.	No	Yes
+448	Deal Backpack — Variant 3	Deals	480	959	50	4.2	12809	278	AST-DEA-0448	Deal Backpack — Variant 3 available on ASTOMITY.	No	Yes
+449	Deal Sneakers — Variant 3	Deals	970	1949	50	4.2	20572	368	AST-DEA-0449	Deal Sneakers — Variant 3 available on ASTOMITY.	No	Yes
+450	Deal Headphones — Variant 3	Deals	2180	2559	15	4.1	3318	221	AST-DEA-0450	Deal Headphones — Variant 3 available on ASTOMITY.	No	No
