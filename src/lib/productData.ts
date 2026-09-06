@@ -1,4 +1,5 @@
 import { Product } from '../types';
+import bundledProducts from '../data/products.json';
 
 type CatalogProduct = Omit<Product, 'id'> & { id?: number };
 
@@ -26,16 +27,14 @@ export async function loadProducts(): Promise<Product[]> {
       throw new Error('Product API returned an invalid response');
     }
 
+    if (data.length === 0) {
+      throw new Error('Product API returned no products');
+    }
+
     return data.map(normalizeProduct);
   } catch (error) {
     console.warn('Using bundled product catalog:', error);
-    const response = await fetch('/src/data/products.json');
-    if (!response.ok) {
-      throw new Error('Unable to load the bundled product catalog');
-    }
-
-    const data = await response.json() as CatalogProduct[];
-    return data.map(normalizeProduct);
+    return (bundledProducts as CatalogProduct[]).map(normalizeProduct);
   }
 }
 
