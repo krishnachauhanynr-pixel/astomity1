@@ -40,7 +40,8 @@ async function startServer() {
   app.post("/api/auth/sync", requireAuth, async (req: AuthRequest, res) => {
     try {
       if (req.user) {
-        const user = await getOrCreateUser(req.user.uid, req.user.email || '');
+        const requestedRole = req.body?.role === 'SELLER' ? 'SELLER' : undefined;
+        const user = await getOrCreateUser(req.user.uid, req.user.email || '', requestedRole);
         res.json({ success: true, role: user.role });
       } else {
         res.status(401).json({ error: "Unauthorized" });
@@ -117,6 +118,9 @@ async function startServer() {
       }
       
       const user = await getOrCreateUser(req.user.uid, req.user.email || '');
+      if (user.role !== 'SELLER' && user.role !== 'ADMIN') {
+        return res.status(403).json({ error: 'Only seller accounts can add products' });
+      }
       
       const newProduct = await db.insert(products).values({
         name,

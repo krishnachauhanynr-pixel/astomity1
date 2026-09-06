@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from 'motion/react';
 
 export default function Header() {
   const { cartCount } = useCart();
-  const { user, logout, login } = useAuth();
+  const { user, logout, login, becomeSeller } = useAuth();
   const navigate = useNavigate();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
@@ -34,7 +34,7 @@ export default function Header() {
             <span>Deliver to <strong className="text-white">New Delhi, 110001</strong></span>
           </div>
           <div className="flex items-center gap-4">
-            <Link to="/dashboard/seller" className="hover:text-white transition-colors">Seller Center</Link>
+            <button onClick={() => user?.role === 'SELLER' ? navigate('/dashboard/seller') : becomeSeller()} className="hover:text-white transition-colors">Seller Center</button>
             <span className="text-slate-600">|</span>
             <Link to="/support" className="hover:text-white transition-colors">Customer Support</Link>
             <span className="text-slate-600">|</span>
@@ -104,12 +104,13 @@ export default function Header() {
             <div className="absolute top-full right-0 w-48 bg-white text-slate-800 shadow-xl rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 overflow-hidden border border-slate-200 mt-2">
               {!user ? (
                 <div className="p-4 flex flex-col gap-2">
-                  <button onClick={() => login()} className="bg-slate-900 text-white w-full py-2 rounded font-medium hover:bg-slate-800 text-sm">Sign in Customer</button>
-                  <button onClick={() => login()} className="bg-slate-100 text-slate-900 w-full py-2 rounded font-medium hover:bg-slate-200 text-sm border border-slate-200">Sign in Seller</button>
+                  <button onClick={() => login('CUSTOMER')} className="bg-slate-900 text-white w-full py-2 rounded font-medium hover:bg-slate-800 text-sm">Create customer account</button>
+                  <button onClick={() => login('SELLER')} className="bg-slate-100 text-slate-900 w-full py-2 rounded font-medium hover:bg-slate-200 text-sm border border-slate-200">Create seller account</button>
                 </div>
               ) : (
                 <div className="p-2">
                   <Link to={`/dashboard/${user.role.toLowerCase()}`} className="block px-4 py-2 hover:bg-slate-50 rounded text-sm font-medium">Dashboard</Link>
+                  {user.role !== 'SELLER' && <button onClick={becomeSeller} className="block w-full text-left px-4 py-2 hover:bg-slate-50 rounded text-sm font-medium">Start selling</button>}
                   <button onClick={logout} className="text-red-600 w-full text-left font-medium hover:bg-red-50 px-4 py-2 rounded text-sm">Sign Out</button>
                 </div>
               )}

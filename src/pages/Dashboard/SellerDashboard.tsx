@@ -3,7 +3,7 @@ import { useAuth } from '../../context/AuthContext';
 import { PackageSearch, TrendingUp, Users, DollarSign, Plus, X, Image as ImageIcon } from 'lucide-react';
 
 export default function SellerDashboard() {
-  const { user } = useAuth();
+  const { user, token } = useAuth();
   const [products, setProducts] = useState<any[]>([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -24,7 +24,7 @@ export default function SellerDashboard() {
   const fetchProducts = async () => {
     if (!user) return;
     try {
-      const token = await user.getIdToken();
+      if (!token) return;
       const res = await fetch('/api/seller/products', {
         headers: {
           'Authorization': `Bearer ${token}`
@@ -44,7 +44,7 @@ export default function SellerDashboard() {
     if (!user) return;
     setLoading(true);
     try {
-      const token = await user.getIdToken();
+      if (!token) return;
       const res = await fetch('/api/products', {
         method: 'POST',
         headers: {
