@@ -4,6 +4,7 @@ import { Star, Truck, ShieldCheck, Share2, Heart, Check, Plus, Minus, ArrowLeft 
 import { Product } from '../types';
 import { ProductStructuredData, BreadcrumbStructuredData } from '../components/StructuredData';
 import { useCart } from '../context/CartContext';
+import { loadProduct } from '../lib/productData';
 
 export default function ProductDetails() {
   const { id } = useParams();
@@ -16,17 +17,21 @@ export default function ProductDetails() {
   const [activeImage, setActiveImage] = useState('');
 
   useEffect(() => {
-    fetch(`/api/products/${id}`)
-      .then(res => res.json())
+    loadProduct(id || '')
       .then(data => {
-        if (data.error) {
+        if (!data) {
           navigate('/search');
-        } else {
-          setProduct(data);
-          setActiveImage(data.image);
+          return;
         }
-        setLoading(false);
-      });
+
+        setProduct(data);
+        setActiveImage(data.image);
+      })
+      .catch(error => {
+        console.error('Unable to load product:', error);
+        navigate('/search');
+      })
+      .finally(() => setLoading(false));
   }, [id, navigate]);
 
   if (loading || !product) {

@@ -4,6 +4,7 @@ import { Filter, ChevronDown, SlidersHorizontal, LayoutGrid, List } from 'lucide
 import ProductCard from '../components/ProductCard';
 import { useSEO } from '../hooks/useSEO';
 import { Product } from '../types';
+import { loadProducts } from '../lib/productData';
 
 export default function Search() {
   const [searchParams] = useSearchParams();
@@ -65,10 +66,9 @@ export default function Search() {
   useEffect(() => {
     // In a real app, we'd pass query params to the backend. 
     // Here we fetch all and filter on the client for demo purposes.
-    fetch('/api/products')
-      .then(res => res.json())
+    loadProducts()
       .then(data => {
-        let filtered = data as Product[];
+        let filtered = data;
         
         if (query) {
           filtered = filtered.filter(p => p.name.toLowerCase().includes(query.toLowerCase()) || p.brand.toLowerCase().includes(query.toLowerCase()));
@@ -81,6 +81,10 @@ export default function Search() {
         }
         
         setProducts(filtered);
+        setLoading(false);
+      })
+      .catch(error => {
+        console.error('Unable to load products:', error);
         setLoading(false);
       });
   }, [query, categoryParam, dealsOnly]);

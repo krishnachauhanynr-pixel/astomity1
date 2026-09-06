@@ -6,6 +6,7 @@ import FAQ from '../components/FAQ';
 import { OrganizationStructuredData } from '../components/StructuredData';
 import { useSEO } from '../hooks/useSEO';
 import { Product } from '../types';
+import { loadProducts } from '../lib/productData';
 
 export default function Home() {
   
@@ -19,14 +20,16 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    Promise.all([
-      fetch('/api/products').then(res => res.json()),
-      fetch('/api/products/deals').then(res => res.json())
-    ]).then(([allProducts, dealsData]) => {
-      setProducts(allProducts);
-      setDeals(dealsData);
-      setLoading(false);
-    });
+    loadProducts()
+      .then(allProducts => {
+        setProducts(allProducts);
+        setDeals([...allProducts]
+          .filter(product => product.discount > 0)
+          .sort((first, second) => second.discount - first.discount)
+          .slice(0, 5));
+      })
+      .catch(error => console.error('Unable to load products:', error))
+      .finally(() => setLoading(false));
   }, []);
 
   const topCategories = [
