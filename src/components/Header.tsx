@@ -19,6 +19,17 @@ export default function Header() {
     }
   };
 
+  const handleSellerCenter = async () => {
+    if (!user) {
+      await login('SELLER');
+      return;
+    }
+    if (user.role !== 'SELLER') {
+      await becomeSeller();
+    }
+    navigate('/dashboard/seller');
+  };
+
   const categories = [
     'Mobiles', 'Electronics', 'Fashion', 'Men', 'Women', 'Beauty', 'Grocery', 'Sports', 'Books', 'Toys', 'Deals'
   ];
@@ -34,7 +45,7 @@ export default function Header() {
             <span>Deliver to <strong className="text-white">New Delhi, 110001</strong></span>
           </div>
           <div className="flex items-center gap-4">
-            <button onClick={() => user?.role === 'SELLER' ? navigate('/dashboard/seller') : becomeSeller()} className="hover:text-white transition-colors">Seller Center</button>
+            <button onClick={handleSellerCenter} className="hover:text-white transition-colors">Seller Center</button>
             <span className="text-slate-600">|</span>
             <Link to="/support" className="hover:text-white transition-colors">Customer Support</Link>
             <span className="text-slate-600">|</span>
