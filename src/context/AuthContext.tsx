@@ -1,12 +1,22 @@
 import { createContext, useContext, useState, ReactNode, useEffect } from 'react';
 import { User } from '../types';
 import { auth, googleAuthProvider } from '../lib/firebase';
-import { signInWithPopup, signOut, onAuthStateChanged, User as FirebaseUser } from 'firebase/auth';
+import {
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
+  signInWithPopup,
+  signOut,
+  onAuthStateChanged,
+} from 'firebase/auth';
+
+type AuthRole = 'CUSTOMER' | 'SELLER' | 'ADMIN';
 
 interface AuthContextType {
   user: User | null;
   loading: boolean;
-  login: (role?: 'CUSTOMER' | 'SELLER' | 'ADMIN') => Promise<void>;
+  login: (role?: AuthRole) => Promise<void>;
+  loginWithEmail: (email: string, password: string, role: AuthRole) => Promise<void>;
+  registerWithEmail: (email: string, password: string, role: AuthRole) => Promise<void>;
   becomeSeller: () => Promise<void>;
   logout: () => Promise<void>;
   token: string | null;
@@ -60,12 +70,32 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     return unsubscribe;
   }, []);
 
-  const login = async (role: 'CUSTOMER' | 'SELLER' | 'ADMIN' = 'CUSTOMER') => {
+  const login = async (role: AuthRole = 'CUSTOMER') => {
     try {
       window.localStorage.setItem('astomity-auth-role', role);
       await signInWithPopup(auth, googleAuthProvider);
     } catch (error) {
       console.error('Login failed', error);
+    }
+  };
+
+  const loginWithEmail = async (email: string, password: string, role: AuthRole) => {
+    window.localStorage.setItem('astomity-auth-role', role);
+    try {
+      await signInWithEmailAndPassword(auth, email.trim(), password);
+    } catch (error) {
+      window.localStorage.removeItem('astomity-auth-role');
+      throw error;
+    }
+  };
+
+  const registerWithEmail = async (email: string, password: string, role: AuthRole) => {
+    window.localStorage.setItem('astomity-auth-role', role);
+    try {
+      await createUserWithEmailAndPassword(auth, email.trim(), password);
+    } catch (error) {
+      window.localStorage.removeItem('astomity-auth-role');
+      throw error;
     }
   };
 
@@ -104,7 +134,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   };
 
   return (
-    <AuthContext.Provider value={{ user, loading, login, becomeSeller, logout, token }}>
+    <AuthContext.Provider value={{ user, loading, login, loginWithEmail, registerWithEmail, becomeSeller, logout, token }}>
       {children}
     </AuthContext.Provider>
   );

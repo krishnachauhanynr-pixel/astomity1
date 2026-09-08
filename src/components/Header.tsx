@@ -5,12 +5,61 @@ import { useCart } from '../context/CartContext';
 import { useAuth } from '../context/AuthContext';
 import { motion, AnimatePresence } from 'motion/react';
 
+type AccountRole = 'CUSTOMER' | 'SELLER';
+
 export default function Header() {
   const { cartCount } = useCart();
-  const { user, logout, login, becomeSeller } = useAuth();
+  const { user, logout, login, loginWithEmail, registerWithEmail, becomeSeller } = useAuth();
   const navigate = useNavigate();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
+  const [authMode, setAuthMode] = useState<'login' | 'register'>('login');
+  const [authRole, setAuthRole] = useState<AccountRole>('CUSTOMER');
+  const [authEmail, setAuthEmail] = useState('');
+  const [authPassword, setAuthPassword] = useState('');
+  const [authError, setAuthError] = useState('');
+  const [authLoading, setAuthLoading] = useState(false);
+  const [isAuthOpen, setIsAuthOpen] = useState(false);
+
+  const openAuth = (role: AccountRole, mode: 'login' | 'register' = 'login') => {
+    setAuthRole(role);
+    setAuthMode(mode);
+    setAuthError('');
+    setIsAuthOpen(true);
+  };
+
+  const closeAuth = () => {
+    setIsAuthOpen(false);
+    setAuthEmail('');
+    setAuthPassword('');
+    setAuthError('');
+  };
+
+  const handleEmailAuth = async (event: React.FormEvent) => {
+    event.preventDefault();
+    setAuthError('');
+    setAuthLoading(true);
+    try {
+      if (authMode === 'register') {
+        await registerWithEmail(authEmail, authPassword, authRole);
+      } else {
+        await loginWithEmail(authEmail, authPassword, authRole);
+      }
+      closeAuth();
+    } catch (error) {
+      const code = (error as { code?: string }).code;
+      const messages: Record<string, string> = {
+        'auth/email-already-in-use': 'An account with this email already exists.',
+        'auth/invalid-credential': 'Email or password is incorrect.',
+        'auth/invalid-email': 'Enter a valid email address.',
+        'auth/weak-password': 'Password must be at least 6 characters.',
+        'auth/user-not-found': 'No account was found with this email.',
+      };
+      setAuthError(messages[code || ''] || 'Unable to complete authentication. Please try again.');
+    } finally {
+      setAuthLoading(false);
+    }
+  };
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
@@ -21,7 +70,7 @@ export default function Header() {
 
   const handleSellerCenter = async () => {
     if (!user) {
-      await login('SELLER');
+      openAuth('SELLER');
       return;
     }
     if (user.role !== 'SELLER') {
@@ -115,8 +164,8 @@ export default function Header() {
             <div className="absolute top-full right-0 w-48 bg-white text-slate-800 shadow-xl rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 overflow-hidden border border-slate-200 mt-2">
               {!user ? (
                 <div className="p-4 flex flex-col gap-2">
-                  <button onClick={() => login('CUSTOMER')} className="bg-slate-900 text-white w-full py-2 rounded font-medium hover:bg-slate-800 text-sm">Create customer account</button>
-                  <button onClick={() => login('SELLER')} className="bg-slate-100 text-slate-900 w-full py-2 rounded font-medium hover:bg-slate-200 text-sm border border-slate-200">Create seller account</button>
+                  <button onClick={() => openAuth('CUSTOMER', 'register')} className="bg-slate-900 text-white w-full py-2 rounded font-medium hover:bg-slate-800 text-sm">Buyer login / register</button>
+                  <button onClick={() => openAuth('SELLER', 'register')} className="bg-slate-100 text-slate-900 w-full py-2 rounded font-medium hover:bg-slate-200 text-sm border border-slate-200">Seller login / register</button>
                 </div>
               ) : (
                 <div className="p-2">
@@ -221,6 +270,53 @@ export default function Header() {
           </>
         )}
       </AnimatePresence>
+
+      {isAuthOpen && (
+        <div className="fixed inset-0 z-[60] flex items-center justify-center bg-slate-950/60 px-4" onClick={closeAuth}>
+          <div className="w-full max-w-md rounded-2xl bg-white p-6 shadow-2xl" onClick={(event) => event.stopPropagation()}>
+            <div className="mb-6 flex items-start justify-between">
+              <div>
+                <p className="text-xs font-bold uppercase tracking-[0.2em] text-slate-500">ASTOMITY account</p>
+                <h2 className="mt-1 text-2xl font-bold text-slate-900">{authMode === 'login' ? 'Welcome back' : 'Create your account'}</h2>
+                <p className="mt-1 text-sm text-slate-500">{authRole === 'SELLER' ? 'Seller account' : 'Buyer account'}</p>
+              </div>
+              <button type="button" onClick={closeAuth} className="rounded-full p-2 text-slate-500 hover:bg-slate-100" aria-label="Close account dialog">
+                <X className="h-5 w-5" />
+              </button>
+            </div>
+
+            <div className="mb-5 grid grid-cols-2 gap-2 rounded-lg bg-slate-100 p-1">
+              {(['CUSTOMER', 'SELLER'] as AccountRole[]).map((role) => (
+                <button key={role} type="button" onClick={() => setAuthRole(role)} className={`rounded-md py-2 text-sm font-semibold transition-colors ${authRole === role ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-500'}`}>
+                  {role === 'CUSTOMER' ? 'Buyer' : 'Seller'}
+                </button>
+              ))}
+            </div>
+
+            <form onSubmit={handleEmailAuth} className="space-y-4">
+              <label className="block text-sm font-medium text-slate-700">
+                Email address
+                <input type="email" required autoComplete="email" value={authEmail} onChange={(event) => setAuthEmail(event.target.value)} className="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2.5 outline-none focus:border-slate-900 focus:ring-1 focus:ring-slate-900" placeholder="you@example.com" />
+              </label>
+              <label className="block text-sm font-medium text-slate-700">
+                Password
+                <input type="password" required minLength={6} autoComplete={authMode === 'login' ? 'current-password' : 'new-password'} value={authPassword} onChange={(event) => setAuthPassword(event.target.value)} className="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2.5 outline-none focus:border-slate-900 focus:ring-1 focus:ring-slate-900" placeholder="At least 6 characters" />
+              </label>
+              {authError && <p className="rounded-lg bg-red-50 px-3 py-2 text-sm text-red-700">{authError}</p>}
+              <button type="submit" disabled={authLoading} className="w-full rounded-lg bg-slate-900 py-3 font-semibold text-white transition-colors hover:bg-slate-800 disabled:cursor-not-allowed disabled:opacity-60">
+                {authLoading ? 'Please wait...' : authMode === 'login' ? `Login as ${authRole === 'SELLER' ? 'seller' : 'buyer'}` : `Create ${authRole === 'SELLER' ? 'seller' : 'buyer'} account`}
+              </button>
+            </form>
+
+            <p className="mt-5 text-center text-sm text-slate-500">
+              {authMode === 'login' ? "Don't have an account?" : 'Already have an account?'}{' '}
+              <button type="button" onClick={() => { setAuthMode(authMode === 'login' ? 'register' : 'login'); setAuthError(''); }} className="font-semibold text-slate-900 hover:underline">
+                {authMode === 'login' ? 'Create one' : 'Login'}
+              </button>
+            </p>
+          </div>
+        </div>
+      )}
     </header>
   );
 }
