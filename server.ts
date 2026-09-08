@@ -156,16 +156,28 @@ async function startServer() {
     }
   });
 
-  // --- SITEMAP ---
+  // --- SEO ---
+  const getSiteUrl = (req: express.Request) => {
+    const configuredUrl = process.env.SITE_URL;
+    const vercelUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL || process.env.VERCEL_URL;
+    const forwardedHost = req.get('X-Forwarded-Host') || req.get('host');
+    const forwardedProtocol = req.get('X-Forwarded-Proto') || req.protocol;
+
+    if (configuredUrl) return configuredUrl.replace(/\/$/, '');
+    if (vercelUrl) return `https://${vercelUrl}`;
+    return `${forwardedProtocol}://${forwardedHost}`;
+  };
+
+  app.get("/robots.txt", (req, res) => {
+    res.type('text/plain').send(`User-agent: *\nAllow: /\nDisallow: /dashboard/\nDisallow: /api/\n\nSitemap: ${getSiteUrl(req)}/sitemap.xml`);
+  });
+
   app.get("/sitemap.xml", async (req, res) => {
     try {
-      const allProducts = await db.select({ id: products.id }).from(products);
-      
-      const host = req.get('X-Forwarded-Host') || req.get('host');
-      const protocol = req.get('X-Forwarded-Proto') || req.protocol || 'https';
-      const baseUrl = `${protocol}://${host}`;
+      const allProducts = await db.select({ id: products.id, createdAt: products.createdAt }).from(products);
+      const baseUrl = getSiteUrl(req);
 
-      const staticRoutes = ['', '/search', '/cart', '/checkout'];
+      const staticRoutes = ['', '/search'];
       const staticUrls = staticRoutes.map(route => `
         <url>
           <loc>${baseUrl}${route}</loc>
@@ -177,6 +189,7 @@ async function startServer() {
       const productUrls = allProducts.map(p => `
         <url>
           <loc>${baseUrl}/product/${p.id}</loc>
+          ${p.createdAt ? `<lastmod>${p.createdAt.toISOString()}</lastmod>` : ''}
           <changefreq>weekly</changefreq>
           <priority>0.7</priority>
         </url>
